@@ -1,0 +1,716 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en" class=" is-copy-enabled emoji-size-boost is-u2f-enabled">
+  <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# object: http://ogp.me/ns/object# article: http://ogp.me/ns/article# profile: http://ogp.me/ns/profile#">
+    <meta charset='utf-8'>
+
+    <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/frameworks-7a00ad3eeda5a7a6c5c73881706829a454f451a5bb65e16be1a8a315f7d083db.css" integrity="sha256-egCtPu2lp6bFxziBcGgppFT0UaW7ZeFr4aijFffQg9s=" media="all" rel="stylesheet" />
+    <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/github-ef0c8c0a059a7e94c9e0db9a99ef44bddc6120803fc9ede1d9e91907384dbbf7.css" integrity="sha256-7wyMCgWafpTJ4Nuame9EvdxhIIA/ye3h2ekZBzhNu/c=" media="all" rel="stylesheet" />
+    
+    
+    
+    
+
+    <link as="script" href="https://assets-cdn.github.com/assets/frameworks-9405458319e3a39d5e4f084c24017c5c40c271ca0a3f37066736fdcfe41b195a.js" rel="preload" />
+    
+    <link as="script" href="https://assets-cdn.github.com/assets/github-f278de3dc7d493f86df62752566b07c2bc42ca3c06d9cafc7861fcc09d86d9d7.js" rel="preload" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Language" content="en">
+    <meta name="viewport" content="width=1020">
+    
+    
+    <title>call-mgmt-flow-designer/flow-designer.json at master · kamalhussain/call-mgmt-flow-designer</title>
+    <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
+    <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png">
+    <meta property="fb:app_id" content="1401488693436528">
+
+      <meta content="https://avatars0.githubusercontent.com/u/1572522?v=3&amp;s=400" name="twitter:image:src" /><meta content="@github" name="twitter:site" /><meta content="summary" name="twitter:card" /><meta content="kamalhussain/call-mgmt-flow-designer" name="twitter:title" /><meta content="call-mgmt-flow-designer - AT&amp;T call designer flows for call management APIs" name="twitter:description" />
+      <meta content="https://avatars0.githubusercontent.com/u/1572522?v=3&amp;s=400" property="og:image" /><meta content="GitHub" property="og:site_name" /><meta content="object" property="og:type" /><meta content="kamalhussain/call-mgmt-flow-designer" property="og:title" /><meta content="https://github.com/kamalhussain/call-mgmt-flow-designer" property="og:url" /><meta content="call-mgmt-flow-designer - AT&amp;T call designer flows for call management APIs" property="og:description" />
+      <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
+    <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
+    <link rel="assets" href="https://assets-cdn.github.com/">
+    <link rel="web-socket" href="wss://live.github.com/_sockets/MTU3MjUyMjoxNDJhNjQwNGE4OWEzM2MxOWFkMWYwYjBiYzU4YzYwNjoxZWJjYjZjYWFjMmQ2YmQ1MTI1YzdkZDIxNzBlZmQ2NmMyMTlhYTQ5NmViMmZjZDkzNzNkODkyM2VjMTZiOThj--f36dcb4673766b2939f455e3fa76ad8b8bb7fb1c">
+    <meta name="pjax-timeout" content="1000">
+    <link rel="sudo-modal" href="/sessions/sudo_modal">
+
+    <meta name="msapplication-TileImage" content="/windows-tile.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="selected-link" value="repo_source" data-pjax-transient>
+
+    <meta name="google-site-verification" content="KT5gs8h0wvaagLKAVWq8bbeNwnZZK1r1XQysX3xurLU">
+<meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
+    <meta name="google-analytics" content="UA-3769691-2">
+
+<meta content="collector.githubapp.com" name="octolytics-host" /><meta content="github" name="octolytics-app-id" /><meta content="6B13BD72:5B29:F9AF732:570C0D29" name="octolytics-dimension-request_id" /><meta content="1572522" name="octolytics-actor-id" /><meta content="kamalhussain" name="octolytics-actor-login" /><meta content="e7e681fcd589f127b3f5e845050efd44f0e5e246d679934e3f20ea5e76ab6958" name="octolytics-actor-hash" />
+<meta content="/&lt;user-name&gt;/&lt;repo-name&gt;/blob/show" data-pjax-transient="true" name="analytics-location" />
+
+
+
+  <meta class="js-ga-set" name="dimension1" content="Logged In">
+
+
+
+        <meta name="hostname" content="github.com">
+    <meta name="user-login" content="kamalhussain">
+
+        <meta name="expected-hostname" content="github.com">
+      <meta name="js-proxy-site-detection-payload" content="N2Y2YzIxMDBmNDcwMDhjMDBmZmRhZTZkZDViMDFjNmU2MTdiMDEwY2Q2OTU0MjRjODc3OGY4MjFjOWNjZjU0MXx7InJlbW90ZV9hZGRyZXNzIjoiMTA3LjE5LjE4OS4xMTQiLCJyZXF1ZXN0X2lkIjoiNkIxM0JENzI6NUIyOTpGOUFGNzMyOjU3MEMwRDI5IiwidGltZXN0YW1wIjoxNDYwNDA3NjAwfQ==">
+
+      <link rel="mask-icon" href="https://assets-cdn.github.com/pinned-octocat.svg" color="#4078c0">
+      <link rel="icon" type="image/x-icon" href="https://assets-cdn.github.com/favicon.ico">
+
+    <meta content="9320833fb3f5aab8f06baba72dfc72a582ca3c43" name="form-nonce" />
+
+    <meta http-equiv="x-pjax-version" content="62b9829110d6417f58c7fb86acc26557">
+    
+
+      
+  <meta name="description" content="call-mgmt-flow-designer - AT&amp;T call designer flows for call management APIs">
+  <meta name="go-import" content="github.com/kamalhussain/call-mgmt-flow-designer git https://github.com/kamalhussain/call-mgmt-flow-designer.git">
+
+  <meta content="1572522" name="octolytics-dimension-user_id" /><meta content="kamalhussain" name="octolytics-dimension-user_login" /><meta content="56006142" name="octolytics-dimension-repository_id" /><meta content="kamalhussain/call-mgmt-flow-designer" name="octolytics-dimension-repository_nwo" /><meta content="true" name="octolytics-dimension-repository_public" /><meta content="false" name="octolytics-dimension-repository_is_fork" /><meta content="56006142" name="octolytics-dimension-repository_network_root_id" /><meta content="kamalhussain/call-mgmt-flow-designer" name="octolytics-dimension-repository_network_root_nwo" />
+  <link href="https://github.com/kamalhussain/call-mgmt-flow-designer/commits/master.atom" rel="alternate" title="Recent Commits to call-mgmt-flow-designer:master" type="application/atom+xml">
+
+
+      <link rel="canonical" href="https://github.com/kamalhussain/call-mgmt-flow-designer/blob/master/flow-designer.json" data-pjax-transient>
+  </head>
+
+
+  <body class="logged-in   env-production macintosh vis-public page-blob">
+    <div id="js-pjax-loader-bar" class="pjax-loader-bar"></div>
+    <a href="#start-of-content" tabindex="1" class="accessibility-aid js-skip-to-content">Skip to content</a>
+
+    
+    
+    
+
+
+
+        <div class="header header-logged-in true" role="banner">
+  <div class="container clearfix">
+
+    <a class="header-logo-invertocat" href="https://github.com/" data-hotkey="g d" aria-label="Homepage" data-ga-click="Header, go to dashboard, icon:logo">
+  <svg aria-hidden="true" class="octicon octicon-mark-github" height="28" version="1.1" viewBox="0 0 16 16" width="28"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59 0.4 0.07 0.55-0.17 0.55-0.38 0-0.19-0.01-0.82-0.01-1.49-2.01 0.37-2.53-0.49-2.69-0.94-0.09-0.23-0.48-0.94-0.82-1.13-0.28-0.15-0.68-0.52-0.01-0.53 0.63-0.01 1.08 0.58 1.23 0.82 0.72 1.21 1.87 0.87 2.33 0.66 0.07-0.52 0.28-0.87 0.51-1.07-1.78-0.2-3.64-0.89-3.64-3.95 0-0.87 0.31-1.59 0.82-2.15-0.08-0.2-0.36-1.02 0.08-2.12 0 0 0.67-0.21 2.2 0.82 0.64-0.18 1.32-0.27 2-0.27 0.68 0 1.36 0.09 2 0.27 1.53-1.04 2.2-0.82 2.2-0.82 0.44 1.1 0.16 1.92 0.08 2.12 0.51 0.56 0.82 1.27 0.82 2.15 0 3.07-1.87 3.75-3.65 3.95 0.29 0.25 0.54 0.73 0.54 1.48 0 1.07-0.01 1.93-0.01 2.2 0 0.21 0.15 0.46 0.55 0.38C13.71 14.53 16 11.53 16 8 16 3.58 12.42 0 8 0z"></path></svg>
+</a>
+
+
+        <div class="header-search scoped-search site-scoped-search js-site-search" role="search">
+  <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/kamalhussain/call-mgmt-flow-designer/search" class="js-site-search-form" data-scoped-search-url="/kamalhussain/call-mgmt-flow-designer/search" data-unscoped-search-url="/search" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>
+    <label class="form-control header-search-wrapper js-chromeless-input-container">
+      <div class="header-search-scope">This repository</div>
+      <input type="text"
+        class="form-control header-search-input js-site-search-focus js-site-search-field is-clearable"
+        data-hotkey="s"
+        name="q"
+        placeholder="Search"
+        aria-label="Search this repository"
+        data-unscoped-placeholder="Search GitHub"
+        data-scoped-placeholder="Search"
+        tabindex="1"
+        autocapitalize="off">
+    </label>
+</form></div>
+
+
+      <ul class="header-nav left" role="navigation">
+        <li class="header-nav-item">
+          <a href="/pulls" class="js-selected-navigation-item header-nav-link" data-ga-click="Header, click, Nav menu - item:pulls context:user" data-hotkey="g p" data-selected-links="/pulls /pulls/assigned /pulls/mentioned /pulls">
+            Pull requests
+</a>        </li>
+        <li class="header-nav-item">
+          <a href="/issues" class="js-selected-navigation-item header-nav-link" data-ga-click="Header, click, Nav menu - item:issues context:user" data-hotkey="g i" data-selected-links="/issues /issues/assigned /issues/mentioned /issues">
+            Issues
+</a>        </li>
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="https://gist.github.com/" data-ga-click="Header, go to gist, text:gist">Gist</a>
+          </li>
+      </ul>
+
+    
+<ul class="header-nav user-nav right" id="user-links">
+  <li class="header-nav-item">
+    
+    <a href="/notifications" aria-label="You have unread notifications" class="header-nav-link notification-indicator tooltipped tooltipped-s js-socket-channel js-notification-indicator" data-channel="notification-changed-v2:1572522" data-ga-click="Header, go to notifications, icon:unread" data-hotkey="g n">
+        <span class="mail-status unread"></span>
+        <svg aria-hidden="true" class="octicon octicon-bell" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path d="M14 12v1H0v-1l0.73-0.58c0.77-0.77 0.81-2.55 1.19-4.42 0.77-3.77 4.08-5 4.08-5 0-0.55 0.45-1 1-1s1 0.45 1 1c0 0 3.39 1.23 4.16 5 0.38 1.88 0.42 3.66 1.19 4.42l0.66 0.58z m-7 4c1.11 0 2-0.89 2-2H5c0 1.11 0.89 2 2 2z"></path></svg>
+</a>
+  </li>
+
+  <li class="header-nav-item dropdown js-menu-container">
+    <a class="header-nav-link tooltipped tooltipped-s js-menu-target" href="/new"
+       aria-label="Create new…"
+       data-ga-click="Header, create new, icon:add">
+      <svg aria-hidden="true" class="octicon octicon-plus left" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path d="M12 9H7v5H5V9H0V7h5V2h2v5h5v2z"></path></svg>
+      <span class="dropdown-caret"></span>
+    </a>
+
+    <div class="dropdown-menu-content js-menu-content">
+      <ul class="dropdown-menu dropdown-menu-sw">
+        
+<a class="dropdown-item" href="/new" data-ga-click="Header, create new repository">
+  New repository
+</a>
+
+
+  <a class="dropdown-item" href="/organizations/new" data-ga-click="Header, create new organization">
+    New organization
+  </a>
+
+
+
+  <div class="dropdown-divider"></div>
+  <div class="dropdown-header">
+    <span title="kamalhussain/call-mgmt-flow-designer">This repository</span>
+  </div>
+    <a class="dropdown-item" href="/kamalhussain/call-mgmt-flow-designer/issues/new" data-ga-click="Header, create new issue">
+      New issue
+    </a>
+    <a class="dropdown-item" href="/kamalhussain/call-mgmt-flow-designer/settings/collaboration" data-ga-click="Header, create new collaborator">
+      New collaborator
+    </a>
+
+      </ul>
+    </div>
+  </li>
+
+  <li class="header-nav-item dropdown js-menu-container">
+    <a class="header-nav-link name tooltipped tooltipped-sw js-menu-target" href="/kamalhussain"
+       aria-label="View profile and more"
+       data-ga-click="Header, show menu, icon:avatar">
+      <img alt="@kamalhussain" class="avatar" height="20" src="https://avatars2.githubusercontent.com/u/1572522?v=3&amp;s=40" width="20" />
+      <span class="dropdown-caret"></span>
+    </a>
+
+    <div class="dropdown-menu-content js-menu-content">
+      <div class="dropdown-menu  dropdown-menu-sw">
+        <div class=" dropdown-header header-nav-current-user css-truncate">
+            Signed in as <strong class="css-truncate-target">kamalhussain</strong>
+
+        </div>
+
+
+        <div class="dropdown-divider"></div>
+
+          <a class="dropdown-item" href="/kamalhussain" data-ga-click="Header, go to profile, text:your profile">
+            Your profile
+          </a>
+        <a class="dropdown-item" href="/stars" data-ga-click="Header, go to starred repos, text:your stars">
+          Your stars
+        </a>
+          <a class="dropdown-item" href="/explore" data-ga-click="Header, go to explore, text:explore">
+            Explore
+          </a>
+          <a class="dropdown-item" href="/integrations" data-ga-click="Header, go to integrations, text:integrations">
+            Integrations
+          </a>
+        <a class="dropdown-item" href="https://help.github.com" data-ga-click="Header, go to help, text:help">
+          Help
+        </a>
+
+
+          <div class="dropdown-divider"></div>
+
+          <a class="dropdown-item" href="/settings/profile" data-ga-click="Header, go to settings, icon:settings">
+            Settings
+          </a>
+
+          <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/logout" class="logout-form" data-form-nonce="9320833fb3f5aab8f06baba72dfc72a582ca3c43" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="sHDA86q6la69F8kodlSOjLoTpyNJwsKhr4P45IIvSlRz5YJoYB570MaRpgVRWXuWh0R1KE1ZVgdWGXoEliXRNA==" /></div>
+            <button class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout">
+              Sign out
+            </button>
+</form>
+      </div>
+    </div>
+  </li>
+</ul>
+
+
+    
+  </div>
+</div>
+
+
+      
+
+
+    <div id="start-of-content" class="accessibility-aid"></div>
+
+      <div id="js-flash-container">
+</div>
+
+
+    <div role="main" class="main-content">
+        <div itemscope itemtype="http://schema.org/SoftwareSourceCode">
+    <div id="js-repo-pjax-container" data-pjax-container>
+      
+<div class="pagehead repohead instapaper_ignore readability-menu experiment-repo-nav">
+  <div class="container repohead-details-container">
+
+    
+
+<ul class="pagehead-actions">
+
+  <li>
+        <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/notifications/subscribe" class="js-social-container" data-autosubmit="true" data-form-nonce="9320833fb3f5aab8f06baba72dfc72a582ca3c43" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="1ixPJIAhrVA2rBIb1MIzvKKPIjn/bT+J+qRloxpYkJ66qfbyYIOcq6BhCCCTR2dxyO6tdhWeWXDEHVHtY33ZTg==" /></div>      <input class="form-control" id="repository_id" name="repository_id" type="hidden" value="56006142" />
+
+        <div class="select-menu js-menu-container js-select-menu">
+          <a href="/kamalhussain/call-mgmt-flow-designer/subscription"
+            class="btn btn-sm btn-with-count select-menu-button js-menu-target" role="button" tabindex="0" aria-haspopup="true"
+            data-ga-click="Repository, click Watch settings, action:blob#show">
+            <span class="js-select-button">
+              <svg aria-hidden="true" class="octicon octicon-eye" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6c4.94 0 7.94-6 7.94-6S13 2 8.06 2z m-0.06 10c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4z m2-4c0 1.11-0.89 2-2 2s-2-0.89-2-2 0.89-2 2-2 2 0.89 2 2z"></path></svg>
+              Unwatch
+            </span>
+          </a>
+          <a class="social-count js-social-count" href="/kamalhussain/call-mgmt-flow-designer/watchers">
+            1
+          </a>
+
+        <div class="select-menu-modal-holder">
+          <div class="select-menu-modal subscription-menu-modal js-menu-content" aria-hidden="true">
+            <div class="select-menu-header js-navigation-enable" tabindex="-1">
+              <svg aria-label="Close" class="octicon octicon-x js-menu-close" height="16" role="img" version="1.1" viewBox="0 0 12 16" width="12"><path d="M7.48 8l3.75 3.75-1.48 1.48-3.75-3.75-3.75 3.75-1.48-1.48 3.75-3.75L0.77 4.25l1.48-1.48 3.75 3.75 3.75-3.75 1.48 1.48-3.75 3.75z"></path></svg>
+              <span class="select-menu-title">Notifications</span>
+            </div>
+
+              <div class="select-menu-list js-navigation-container" role="menu">
+
+                <div class="select-menu-item js-navigation-item " role="menuitem" tabindex="0">
+                  <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path d="M12 5L4 13 0 9l1.5-1.5 2.5 2.5 6.5-6.5 1.5 1.5z"></path></svg>
+                  <div class="select-menu-item-text">
+                    <input id="do_included" name="do" type="radio" value="included" />
+                    <span class="select-menu-item-heading">Not watching</span>
+                    <span class="description">Be notified when participating or @mentioned.</span>
+                    <span class="js-select-button-text hidden-select-button-text">
+                      <svg aria-hidden="true" class="octicon octicon-eye" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6c4.94 0 7.94-6 7.94-6S13 2 8.06 2z m-0.06 10c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4z m2-4c0 1.11-0.89 2-2 2s-2-0.89-2-2 0.89-2 2-2 2 0.89 2 2z"></path></svg>
+                      Watch
+                    </span>
+                  </div>
+                </div>
+
+                <div class="select-menu-item js-navigation-item selected" role="menuitem" tabindex="0">
+                  <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path d="M12 5L4 13 0 9l1.5-1.5 2.5 2.5 6.5-6.5 1.5 1.5z"></path></svg>
+                  <div class="select-menu-item-text">
+                    <input checked="checked" id="do_subscribed" name="do" type="radio" value="subscribed" />
+                    <span class="select-menu-item-heading">Watching</span>
+                    <span class="description">Be notified of all conversations.</span>
+                    <span class="js-select-button-text hidden-select-button-text">
+                      <svg aria-hidden="true" class="octicon octicon-eye" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6c4.94 0 7.94-6 7.94-6S13 2 8.06 2z m-0.06 10c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4z m2-4c0 1.11-0.89 2-2 2s-2-0.89-2-2 0.89-2 2-2 2 0.89 2 2z"></path></svg>
+                      Unwatch
+                    </span>
+                  </div>
+                </div>
+
+                <div class="select-menu-item js-navigation-item " role="menuitem" tabindex="0">
+                  <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path d="M12 5L4 13 0 9l1.5-1.5 2.5 2.5 6.5-6.5 1.5 1.5z"></path></svg>
+                  <div class="select-menu-item-text">
+                    <input id="do_ignore" name="do" type="radio" value="ignore" />
+                    <span class="select-menu-item-heading">Ignoring</span>
+                    <span class="description">Never be notified.</span>
+                    <span class="js-select-button-text hidden-select-button-text">
+                      <svg aria-hidden="true" class="octicon octicon-mute" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M8 2.81v10.38c0 0.67-0.81 1-1.28 0.53L3 10H1c-0.55 0-1-0.45-1-1V7c0-0.55 0.45-1 1-1h2l3.72-3.72c0.47-0.47 1.28-0.14 1.28 0.53z m7.53 3.22l-1.06-1.06-1.97 1.97-1.97-1.97-1.06 1.06 1.97 1.97-1.97 1.97 1.06 1.06 1.97-1.97 1.97 1.97 1.06-1.06-1.97-1.97 1.97-1.97z"></path></svg>
+                      Stop ignoring
+                    </span>
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+</form>
+  </li>
+
+  <li>
+    
+  <div class="js-toggler-container js-social-container starring-container ">
+
+    <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/kamalhussain/call-mgmt-flow-designer/unstar" class="js-toggler-form starred" data-form-nonce="9320833fb3f5aab8f06baba72dfc72a582ca3c43" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="Nf6UWh8lbu0m8nfQKM3tMPjPYCA2mJ9wfFLxlLAUnyJqZH30gTssWMKc30rvBwDER2Xp3O5lzePakL6G/q0YbA==" /></div>
+      <button
+        class="btn btn-sm btn-with-count js-toggler-target"
+        aria-label="Unstar this repository" title="Unstar kamalhussain/call-mgmt-flow-designer"
+        data-ga-click="Repository, click unstar button, action:blob#show; text:Unstar">
+        <svg aria-hidden="true" class="octicon octicon-star" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path d="M14 6l-4.9-0.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14l4.33-2.33 4.33 2.33L10.4 9.26 14 6z"></path></svg>
+        Unstar
+      </button>
+        <a class="social-count js-social-count" href="/kamalhussain/call-mgmt-flow-designer/stargazers">
+          0
+        </a>
+</form>
+    <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/kamalhussain/call-mgmt-flow-designer/star" class="js-toggler-form unstarred" data-form-nonce="9320833fb3f5aab8f06baba72dfc72a582ca3c43" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="E9in2A7BWjLyAISu4f035V0UzKKa1D4Z040+rjwqzWJZ349c8isB+JbI9dFiqQB2ku+FaAwhYzEcCRTxAXqZNw==" /></div>
+      <button
+        class="btn btn-sm btn-with-count js-toggler-target"
+        aria-label="Star this repository" title="Star kamalhussain/call-mgmt-flow-designer"
+        data-ga-click="Repository, click star button, action:blob#show; text:Star">
+        <svg aria-hidden="true" class="octicon octicon-star" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path d="M14 6l-4.9-0.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14l4.33-2.33 4.33 2.33L10.4 9.26 14 6z"></path></svg>
+        Star
+      </button>
+        <a class="social-count js-social-count" href="/kamalhussain/call-mgmt-flow-designer/stargazers">
+          0
+        </a>
+</form>  </div>
+
+  </li>
+
+  <li>
+          <a href="#fork-destination-box" class="btn btn-sm btn-with-count"
+              title="Fork your own copy of kamalhussain/call-mgmt-flow-designer to your account"
+              aria-label="Fork your own copy of kamalhussain/call-mgmt-flow-designer to your account"
+              rel="facebox"
+              data-ga-click="Repository, show fork modal, action:blob#show; text:Fork">
+              <svg aria-hidden="true" class="octicon octicon-repo-forked" height="16" version="1.1" viewBox="0 0 10 16" width="10"><path d="M8 1c-1.11 0-2 0.89-2 2 0 0.73 0.41 1.38 1 1.72v1.28L5 8 3 6v-1.28c0.59-0.34 1-0.98 1-1.72 0-1.11-0.89-2-2-2S0 1.89 0 3c0 0.73 0.41 1.38 1 1.72v1.78l3 3v1.78c-0.59 0.34-1 0.98-1 1.72 0 1.11 0.89 2 2 2s2-0.89 2-2c0-0.73-0.41-1.38-1-1.72V9.5l3-3V4.72c0.59-0.34 1-0.98 1-1.72 0-1.11-0.89-2-2-2zM2 4.2c-0.66 0-1.2-0.55-1.2-1.2s0.55-1.2 1.2-1.2 1.2 0.55 1.2 1.2-0.55 1.2-1.2 1.2z m3 10c-0.66 0-1.2-0.55-1.2-1.2s0.55-1.2 1.2-1.2 1.2 0.55 1.2 1.2-0.55 1.2-1.2 1.2z m3-10c-0.66 0-1.2-0.55-1.2-1.2s0.55-1.2 1.2-1.2 1.2 0.55 1.2 1.2-0.55 1.2-1.2 1.2z"></path></svg>
+            Fork
+          </a>
+
+          <div id="fork-destination-box" style="display: none;">
+            <h2 class="facebox-header" data-facebox-id="facebox-header">Where should we fork this repository?</h2>
+            <include-fragment src=""
+                class="js-fork-select-fragment fork-select-fragment"
+                data-url="/kamalhussain/call-mgmt-flow-designer/fork?fragment=1">
+              <img alt="Loading" height="64" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-128.gif" width="64" />
+            </include-fragment>
+          </div>
+
+    <a href="/kamalhussain/call-mgmt-flow-designer/network" class="social-count">
+      0
+    </a>
+  </li>
+</ul>
+
+    <h1 class="entry-title public ">
+  <svg aria-hidden="true" class="octicon octicon-repo" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path d="M4 9h-1v-1h1v1z m0-3h-1v1h1v-1z m0-2h-1v1h1v-1z m0-2h-1v1h1v-1z m8-1v12c0 0.55-0.45 1-1 1H6v2l-1.5-1.5-1.5 1.5V14H1c-0.55 0-1-0.45-1-1V1C0 0.45 0.45 0 1 0h10c0.55 0 1 0.45 1 1z m-1 10H1v2h2v-1h3v1h5V11z m0-10H2v9h9V1z"></path></svg>
+  <span class="author" itemprop="author"><a href="/kamalhussain" class="url fn" rel="author">kamalhussain</a></span><!--
+--><span class="path-divider">/</span><!--
+--><strong itemprop="name"><a href="/kamalhussain/call-mgmt-flow-designer" data-pjax="#js-repo-pjax-container">call-mgmt-flow-designer</a></strong>
+
+</h1>
+
+  </div>
+  <div class="container">
+    
+<nav class="reponav js-repo-nav js-sidenav-container-pjax"
+     itemscope
+     itemtype="http://schema.org/BreadcrumbList"
+     role="navigation"
+     data-pjax="#js-repo-pjax-container">
+
+  <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <a href="/kamalhussain/call-mgmt-flow-designer" aria-selected="true" class="js-selected-navigation-item selected reponav-item" data-hotkey="g c" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches /kamalhussain/call-mgmt-flow-designer" itemprop="url">
+      <svg aria-hidden="true" class="octicon octicon-code" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path d="M9.5 3l-1.5 1.5 3.5 3.5L8 11.5l1.5 1.5 4.5-5L9.5 3zM4.5 3L0 8l4.5 5 1.5-1.5L2.5 8l3.5-3.5L4.5 3z"></path></svg>
+      <span itemprop="name">Code</span>
+      <meta itemprop="position" content="1">
+</a>  </span>
+
+    <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+      <a href="/kamalhussain/call-mgmt-flow-designer/issues" class="js-selected-navigation-item reponav-item" data-hotkey="g i" data-selected-links="repo_issues repo_labels repo_milestones /kamalhussain/call-mgmt-flow-designer/issues" itemprop="url">
+        <svg aria-hidden="true" class="octicon octicon-issue-opened" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7S10.14 13.7 7 13.7 1.3 11.14 1.3 8s2.56-5.7 5.7-5.7m0-1.3C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7S10.86 1 7 1z m1 3H6v5h2V4z m0 6H6v2h2V10z"></path></svg>
+        <span itemprop="name">Issues</span>
+        <span class="counter">0</span>
+        <meta itemprop="position" content="2">
+</a>    </span>
+
+  <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <a href="/kamalhussain/call-mgmt-flow-designer/pulls" class="js-selected-navigation-item reponav-item" data-hotkey="g p" data-selected-links="repo_pulls /kamalhussain/call-mgmt-flow-designer/pulls" itemprop="url">
+      <svg aria-hidden="true" class="octicon octicon-git-pull-request" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path d="M11 11.28c0-1.73 0-6.28 0-6.28-0.03-0.78-0.34-1.47-0.94-2.06s-1.28-0.91-2.06-0.94c0 0-1.02 0-1 0V0L4 3l3 3V4h1c0.27 0.02 0.48 0.11 0.69 0.31s0.3 0.42 0.31 0.69v6.28c-0.59 0.34-1 0.98-1 1.72 0 1.11 0.89 2 2 2s2-0.89 2-2c0-0.73-0.41-1.38-1-1.72z m-1 2.92c-0.66 0-1.2-0.55-1.2-1.2s0.55-1.2 1.2-1.2 1.2 0.55 1.2 1.2-0.55 1.2-1.2 1.2zM4 3c0-1.11-0.89-2-2-2S0 1.89 0 3c0 0.73 0.41 1.38 1 1.72 0 1.55 0 5.56 0 6.56-0.59 0.34-1 0.98-1 1.72 0 1.11 0.89 2 2 2s2-0.89 2-2c0-0.73-0.41-1.38-1-1.72V4.72c0.59-0.34 1-0.98 1-1.72z m-0.8 10c0 0.66-0.55 1.2-1.2 1.2s-1.2-0.55-1.2-1.2 0.55-1.2 1.2-1.2 1.2 0.55 1.2 1.2z m-1.2-8.8c-0.66 0-1.2-0.55-1.2-1.2s0.55-1.2 1.2-1.2 1.2 0.55 1.2 1.2-0.55 1.2-1.2 1.2z"></path></svg>
+      <span itemprop="name">Pull requests</span>
+      <span class="counter">0</span>
+      <meta itemprop="position" content="3">
+</a>  </span>
+
+    <a href="/kamalhussain/call-mgmt-flow-designer/wiki" class="js-selected-navigation-item reponav-item" data-hotkey="g w" data-selected-links="repo_wiki /kamalhussain/call-mgmt-flow-designer/wiki">
+      <svg aria-hidden="true" class="octicon octicon-book" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M2 5h4v1H2v-1z m0 3h4v-1H2v1z m0 2h4v-1H2v1z m11-5H9v1h4v-1z m0 2H9v1h4v-1z m0 2H9v1h4v-1z m2-6v9c0 0.55-0.45 1-1 1H8.5l-1 1-1-1H1c-0.55 0-1-0.45-1-1V3c0-0.55 0.45-1 1-1h5.5l1 1 1-1h5.5c0.55 0 1 0.45 1 1z m-8 0.5l-0.5-0.5H1v9h6V3.5z m7-0.5H8.5l-0.5 0.5v8.5h6V3z"></path></svg>
+      Wiki
+</a>
+  <a href="/kamalhussain/call-mgmt-flow-designer/pulse" class="js-selected-navigation-item reponav-item" data-selected-links="pulse /kamalhussain/call-mgmt-flow-designer/pulse">
+    <svg aria-hidden="true" class="octicon octicon-pulse" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path d="M11.5 8L8.8 5.4 6.6 8.5 5.5 1.6 2.38 8H0V10h3.6L4.5 8.2l0.9 5.4L9 8.5l1.6 1.5H14V8H11.5z"></path></svg>
+    Pulse
+</a>
+  <a href="/kamalhussain/call-mgmt-flow-designer/graphs" class="js-selected-navigation-item reponav-item" data-selected-links="repo_graphs repo_contributors /kamalhussain/call-mgmt-flow-designer/graphs">
+    <svg aria-hidden="true" class="octicon octicon-graph" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M16 14v1H0V0h1v14h15z m-11-1H3V8h2v5z m4 0H7V3h2v10z m4 0H11V6h2v7z"></path></svg>
+    Graphs
+</a>
+    <a href="/kamalhussain/call-mgmt-flow-designer/settings" class="js-selected-navigation-item reponav-item" data-selected-links="repo_settings repo_branch_settings hooks /kamalhussain/call-mgmt-flow-designer/settings">
+      <svg aria-hidden="true" class="octicon octicon-gear" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path d="M14 8.77V7.17l-1.94-0.64-0.45-1.09 0.88-1.84-1.13-1.13-1.81 0.91-1.09-0.45-0.69-1.92H6.17l-0.63 1.94-1.11 0.45-1.84-0.88-1.13 1.13 0.91 1.81-0.45 1.09L0 7.23v1.59l1.94 0.64 0.45 1.09-0.88 1.84 1.13 1.13 1.81-0.91 1.09 0.45 0.69 1.92h1.59l0.63-1.94 1.11-0.45 1.84 0.88 1.13-1.13-0.92-1.81 0.47-1.09 1.92-0.69zM7 11c-1.66 0-3-1.34-3-3s1.34-3 3-3 3 1.34 3 3-1.34 3-3 3z"></path></svg>
+      Settings
+</a>
+</nav>
+
+  </div>
+</div>
+
+<div class="container new-discussion-timeline experiment-repo-nav">
+  <div class="repository-content">
+
+    
+
+<a href="/kamalhussain/call-mgmt-flow-designer/blob/952bc9043d1577f520fd5a858928dc84b1f7d532/flow-designer.json" class="hidden js-permalink-shortcut" data-hotkey="y">Permalink</a>
+
+<!-- blob contrib key: blob_contributors:v21:95454e1c5918da8ea98df2eea5e82aac -->
+
+<div class="file-navigation js-zeroclipboard-container">
+  
+<div class="select-menu branch-select-menu js-menu-container js-select-menu left">
+  <button class="btn btn-sm select-menu-button js-menu-target css-truncate" data-hotkey="w"
+    title="master"
+    type="button" aria-label="Switch branches or tags" tabindex="0" aria-haspopup="true">
+    <i>Branch:</i>
+    <span class="js-select-button css-truncate-target">master</span>
+  </button>
+
+  <div class="select-menu-modal-holder js-menu-content js-navigation-container" data-pjax aria-hidden="true">
+
+    <div class="select-menu-modal">
+      <div class="select-menu-header">
+        <svg aria-label="Close" class="octicon octicon-x js-menu-close" height="16" role="img" version="1.1" viewBox="0 0 12 16" width="12"><path d="M7.48 8l3.75 3.75-1.48 1.48-3.75-3.75-3.75 3.75-1.48-1.48 3.75-3.75L0.77 4.25l1.48-1.48 3.75 3.75 3.75-3.75 1.48 1.48-3.75 3.75z"></path></svg>
+        <span class="select-menu-title">Switch branches/tags</span>
+      </div>
+
+      <div class="select-menu-filters">
+        <div class="select-menu-text-filter">
+          <input type="text" aria-label="Find or create a branch…" id="context-commitish-filter-field" class="form-control js-filterable-field js-navigation-enable" placeholder="Find or create a branch…">
+        </div>
+        <div class="select-menu-tabs">
+          <ul>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="branches" data-filter-placeholder="Find or create a branch…" class="js-select-menu-tab" role="tab">Branches</a>
+            </li>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="tags" data-filter-placeholder="Find a tag…" class="js-select-menu-tab" role="tab">Tags</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="branches" role="menu">
+
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+            <a class="select-menu-item js-navigation-item js-navigation-open selected"
+               href="/kamalhussain/call-mgmt-flow-designer/blob/master/flow-designer.json"
+               data-name="master"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path d="M12 5L4 13 0 9l1.5-1.5 2.5 2.5 6.5-6.5 1.5 1.5z"></path></svg>
+              <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text" title="master">
+                master
+              </span>
+            </a>
+        </div>
+
+          <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/kamalhussain/call-mgmt-flow-designer/branches" class="js-create-branch select-menu-item select-menu-new-item-form js-navigation-item js-new-item-form" data-form-nonce="9320833fb3f5aab8f06baba72dfc72a582ca3c43" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="bNZeEcDicQYCaUqFQMJBAU6HUDm8tPHYxgZdjJdMa374E1HMdGJKvDCmdzt/eK/lRsyDXOac4fxgcRQuAqOQ4A==" /></div>
+          <svg aria-hidden="true" class="octicon octicon-git-branch select-menu-item-icon" height="16" version="1.1" viewBox="0 0 10 16" width="10"><path d="M10 5c0-1.11-0.89-2-2-2s-2 0.89-2 2c0 0.73 0.41 1.38 1 1.72v0.3c-0.02 0.52-0.23 0.98-0.63 1.38s-0.86 0.61-1.38 0.63c-0.83 0.02-1.48 0.16-2 0.45V4.72c0.59-0.34 1-0.98 1-1.72 0-1.11-0.89-2-2-2S0 1.89 0 3c0 0.73 0.41 1.38 1 1.72v6.56C0.41 11.63 0 12.27 0 13c0 1.11 0.89 2 2 2s2-0.89 2-2c0-0.53-0.2-1-0.53-1.36 0.09-0.06 0.48-0.41 0.59-0.47 0.25-0.11 0.56-0.17 0.94-0.17 1.05-0.05 1.95-0.45 2.75-1.25s1.2-1.98 1.25-3.02h-0.02c0.61-0.36 1.02-1 1.02-1.73zM2 1.8c0.66 0 1.2 0.55 1.2 1.2s-0.55 1.2-1.2 1.2-1.2-0.55-1.2-1.2 0.55-1.2 1.2-1.2z m0 12.41c-0.66 0-1.2-0.55-1.2-1.2s0.55-1.2 1.2-1.2 1.2 0.55 1.2 1.2-0.55 1.2-1.2 1.2z m6-8c-0.66 0-1.2-0.55-1.2-1.2s0.55-1.2 1.2-1.2 1.2 0.55 1.2 1.2-0.55 1.2-1.2 1.2z"></path></svg>
+            <div class="select-menu-item-text">
+              <span class="select-menu-item-heading">Create branch: <span class="js-new-item-name"></span></span>
+              <span class="description">from ‘master’</span>
+            </div>
+            <input type="hidden" name="name" id="name" class="js-new-item-value">
+            <input type="hidden" name="branch" id="branch" value="master">
+            <input type="hidden" name="path" id="path" value="flow-designer.json">
+</form>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="tags">
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+        </div>
+
+        <div class="select-menu-no-results">Nothing to show</div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+  <div class="btn-group right">
+    <a href="/kamalhussain/call-mgmt-flow-designer/find/master"
+          class="js-pjax-capture-input btn btn-sm"
+          data-pjax
+          data-hotkey="t">
+      Find file
+    </a>
+    <button aria-label="Copy file path to clipboard" class="js-zeroclipboard btn btn-sm zeroclipboard-button tooltipped tooltipped-s" data-copied-hint="Copied!" type="button">Copy path</button>
+  </div>
+  <div class="breadcrumb js-zeroclipboard-target">
+    <span class="repo-root js-repo-root"><span class="js-path-segment"><a href="/kamalhussain/call-mgmt-flow-designer"><span>call-mgmt-flow-designer</span></a></span></span><span class="separator">/</span><strong class="final-path">flow-designer.json</strong>
+  </div>
+</div>
+
+
+  <div class="commit-tease">
+      <span class="right">
+        <a class="commit-tease-sha" href="/kamalhussain/call-mgmt-flow-designer/commit/952bc9043d1577f520fd5a858928dc84b1f7d532" data-pjax>
+          952bc90
+        </a>
+        <time datetime="2016-04-11T20:46:39Z" is="relative-time">Apr 11, 2016</time>
+      </span>
+      <div>
+        <img alt="" class="avatar" height="20" src="https://2.gravatar.com/avatar/046e2fbc08835e436896517fd6cfbcb0?d=https%3A%2F%2Fassets-cdn.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png&amp;r=x&amp;s=140" width="20" />
+        <span class="user-mention">Kamal Hussain</span>
+          <a href="/kamalhussain/call-mgmt-flow-designer/commit/952bc9043d1577f520fd5a858928dc84b1f7d532" class="message" data-pjax="true" title="first version">first version</a>
+      </div>
+
+    <div class="commit-tease-contributors">
+      <button type="button" class="btn-link muted-link contributors-toggle" data-facebox="#blob_contributors_box">
+        <strong>0</strong>
+         contributors
+      </button>
+      
+    </div>
+
+    <div id="blob_contributors_box" style="display:none">
+      <h2 class="facebox-header" data-facebox-id="facebox-header">Users who have contributed to this file</h2>
+      <ul class="facebox-user-list" data-facebox-id="facebox-description">
+      </ul>
+    </div>
+  </div>
+
+<div class="file">
+  <div class="file-header">
+  <div class="file-actions">
+
+    <div class="btn-group">
+      <a href="/kamalhussain/call-mgmt-flow-designer/raw/master/flow-designer.json" class="btn btn-sm " id="raw-url">Raw</a>
+        <a href="/kamalhussain/call-mgmt-flow-designer/blame/master/flow-designer.json" class="btn btn-sm js-update-url-with-hash">Blame</a>
+      <a href="/kamalhussain/call-mgmt-flow-designer/commits/master/flow-designer.json" class="btn btn-sm " rel="nofollow">History</a>
+    </div>
+
+        <a class="btn-octicon tooltipped tooltipped-nw"
+           href="https://mac.github.com"
+           aria-label="Open this file in GitHub Desktop"
+           data-ga-click="Repository, open with desktop, type:mac">
+            <svg aria-hidden="true" class="octicon octicon-device-desktop" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M15 2H1c-0.55 0-1 0.45-1 1v9c0 0.55 0.45 1 1 1h5.34c-0.25 0.61-0.86 1.39-2.34 2h8c-1.48-0.61-2.09-1.39-2.34-2h5.34c0.55 0 1-0.45 1-1V3c0-0.55-0.45-1-1-1z m0 9H1V3h14v8z"></path></svg>
+        </a>
+
+        <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/kamalhussain/call-mgmt-flow-designer/edit/master/flow-designer.json" class="inline-form js-update-url-with-hash" data-form-nonce="9320833fb3f5aab8f06baba72dfc72a582ca3c43" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="SW72AnCN1/KiJL+VFg29Aq+LjdV9sJCxub8DSonvqziXDpNtcFhGcEyq1ro3lbGqNukvBMeUWmdE3E6hpipUHA==" /></div>
+          <button class="btn-octicon tooltipped tooltipped-nw" type="submit"
+            aria-label="Edit this file" data-hotkey="e" data-disable-with>
+            <svg aria-hidden="true" class="octicon octicon-pencil" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path d="M0 12v3h3l8-8-3-3L0 12z m3 2H1V12h1v1h1v1z m10.3-9.3l-1.3 1.3-3-3 1.3-1.3c0.39-0.39 1.02-0.39 1.41 0l1.59 1.59c0.39 0.39 0.39 1.02 0 1.41z"></path></svg>
+          </button>
+</form>        <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/kamalhussain/call-mgmt-flow-designer/delete/master/flow-designer.json" class="inline-form" data-form-nonce="9320833fb3f5aab8f06baba72dfc72a582ca3c43" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="pJ5GllWec8QKu6+ZcTyhjyoIYm4cBJ7MVPyWLkISZSx7qUfPZXiSART7Xjk6WZ5zVfBJZwp1fIgkrLliEzd4Jg==" /></div>
+          <button class="btn-octicon btn-octicon-danger tooltipped tooltipped-nw" type="submit"
+            aria-label="Delete this file" data-disable-with>
+            <svg aria-hidden="true" class="octicon octicon-trashcan" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path d="M10 2H8c0-0.55-0.45-1-1-1H4c-0.55 0-1 0.45-1 1H1c-0.55 0-1 0.45-1 1v1c0 0.55 0.45 1 1 1v9c0 0.55 0.45 1 1 1h7c0.55 0 1-0.45 1-1V5c0.55 0 1-0.45 1-1v-1c0-0.55-0.45-1-1-1z m-1 12H2V5h1v8h1V5h1v8h1V5h1v8h1V5h1v9z m1-10H1v-1h9v1z"></path></svg>
+          </button>
+</form>  </div>
+
+  <div class="file-info">
+      2 lines (1 sloc)
+      <span class="file-info-divider"></span>
+    42 KB
+  </div>
+</div>
+
+  
+
+  <div itemprop="text" class="blob-wrapper data type-json">
+      <table class="highlight tab-size js-file-line-container" data-tab-size="8">
+      <tr>
+        <td id="L1" class="blob-num js-line-number" data-line-number="1"></td>
+        <td id="LC1" class="blob-code blob-code-inner js-file-line">[{&quot;id&quot;:&quot;532d167e.acd2e8&quot;,&quot;type&quot;:&quot;subflow&quot;,&quot;name&quot;:&quot;Cleanup (2)&quot;,&quot;in&quot;:[{&quot;x&quot;:34.44444465637207,&quot;y&quot;:71.1111068725586,&quot;wires&quot;:[{&quot;id&quot;:&quot;b27dcb88.4d8238&quot;}]}],&quot;out&quot;:[{&quot;x&quot;:158.88883018493652,&quot;y&quot;:242.22223281860352,&quot;wires&quot;:[{&quot;id&quot;:&quot;b27dcb88.4d8238&quot;,&quot;port&quot;:1}]}]},{&quot;id&quot;:&quot;2527c207.dad83e&quot;,&quot;type&quot;:&quot;function&quot;,&quot;debugBreak&quot;:false,&quot;debugOutput&quot;:false,&quot;name&quot;:&quot;Setup Delete Request&quot;,&quot;func&quot;:&quot;console.log(\&quot;Idx=\&quot;+msg.subIdx);\nconsole.log(JSON.stringify(msg.subIds));\nconsole.log(\&quot;Deleting \&quot;+ msg.subIds[msg.subIdx]);\nmsg.url = context.global.base_url+\&quot;/a1/nca/subscription/callDirection/\&quot;+msg.subIds[msg.subIdx];\nmsg.method = \&quot;DELETE\&quot;;\nmsg.headers = {\n        \&quot;Authorization\&quot;:\&quot;Bearer \&quot;+context.global.BearerToken,\n        \&quot;User-Agent\&quot;:\&quot;NodeRed-Rapport\&quot;\n    };\nmsg.subIdx++;\nreturn msg;&quot;,&quot;outputs&quot;:1,&quot;valid&quot;:true,&quot;x&quot;:777.7778167724609,&quot;y&quot;:149.9999942779541,&quot;z&quot;:&quot;532d167e.acd2e8&quot;,&quot;wires&quot;:[[&quot;5755d90c.a8aa28&quot;]]},{&quot;id&quot;:&quot;b27dcb88.4d8238&quot;,&quot;type&quot;:&quot;function&quot;,&quot;debugBreak&quot;:false,&quot;debugOutput&quot;:false,&quot;name&quot;:&quot;Proc Numbers&quot;,&quot;func&quot;:&quot;//\n// Register a callback for each number in the \n// msg.numbers array\n//\nif (msg.numIdx &lt; msg.numbers.length) {\n    msg.number = msg.numbers[msg.numIdx];\n    msg.numIdx++;\n    return [msg, null];\n} else {\n    msg.numIdx = 0;\n    return [null, msg];\n}\nreturn msg;&quot;,&quot;outputs&quot;:&quot;2&quot;,&quot;valid&quot;:true,&quot;x&quot;:218.88886260986328,&quot;y&quot;:73.11114025115967,&quot;z&quot;:&quot;532d167e.acd2e8&quot;,&quot;wires&quot;:[[&quot;e9ee683b.161198&quot;],[]]},{&quot;id&quot;:&quot;e9ee683b.161198&quot;,&quot;type&quot;:&quot;function&quot;,&quot;debugBreak&quot;:false,&quot;debugOutput&quot;:false,&quot;name&quot;:&quot;Setup Direction Audit&quot;,&quot;func&quot;:&quot;msg.url = context.global.base_url+\&quot;/a1/nca/subscription/callDirection/audit/\&quot;+msg.number;\nmsg.method = \&quot;GET\&quot;;\nmsg.headers = {\n        \&quot;Content-Type\&quot;:\&quot;application/json\&quot;,\n        \&quot;Authorization\&quot;:\&quot;Bearer \&quot;+context.global.BearerToken,\n        \&quot;User-Agent\&quot;:\&quot;FlowDesigner\&quot;\n    };\nreturn msg;&quot;,&quot;outputs&quot;:1,&quot;valid&quot;:true,&quot;x&quot;:427.7777633666992,&quot;y&quot;:67.55558681488037,&quot;z&quot;:&quot;532d167e.acd2e8&quot;,&quot;wires&quot;:[[&quot;c95e6303.36a1a&quot;]]},{&quot;id&quot;:&quot;c95e6303.36a1a&quot;,&quot;type&quot;:&quot;http request&quot;,&quot;debugBreak&quot;:false,&quot;debugOutput&quot;:false,&quot;name&quot;:&quot;&quot;,&quot;method&quot;:&quot;use&quot;,&quot;ret&quot;:&quot;obj&quot;,&quot;url&quot;:&quot;&quot;,&quot;x&quot;:634.4444580078125,&quot;y&quot;:67.555588722229,&quot;z&quot;:&quot;532d167e.acd2e8&quot;,&quot;wires&quot;:[[&quot;7abf8707.854078&quot;]]},{&quot;id&quot;:&quot;7abf8707.854078&quot;,&quot;type&quot;:&quot;function&quot;,&quot;debugBreak&quot;:false,&quot;debugOutput&quot;:false,&quot;name&quot;:&quot;ExtractDirectionSubInfo&quot;,&quot;func&quot;:&quot;msg.subCount = 0;\nmsg.subIdx = 0;\nif (msg.statusCode == 200) {\n    if (msg.payload.callDirectionSubscription &amp;&amp;\n        (msg.payload.callDirectionSubscription.length &gt; 0)) {\n        //console.log(JSON.stringify(msg.payload.callDirectionSubscription));\n        msg.subCount = msg.payload.callDirectionSubscription.length;\n        msg.subIds = [];\n        for (var i=0; i&lt;msg.subCount; i++) {\n            msg.subIds.push(msg.payload.callDirectionSubscription[i].subId);\n        }\n    } \n} else {\n    node.error(\&quot;Unable to get direction audit info\&quot;);\n    node.error(msg.payload);\n}\nreturn msg;&quot;,&quot;outputs&quot;:1,&quot;valid&quot;:true,&quot;x&quot;:844.4443740844727,&quot;y&quot;:68.33335590362549,&quot;z&quot;:&quot;532d167e.acd2e8&quot;,&quot;wires&quot;:[[&quot;2f7889b9.d08776&quot;]]},{&quot;id&quot;:&quot;2f7889b9.d08776&quot;,&quot;type&quot;:&quot;function&quot;,&quot;debugBreak&quot;:false,&quot;debugOutput&quot;:false,&quot;name&quot;:&quot;ProcDirectionSubs&quot;,&quot;func&quot;:&quot;if (msg.subIdx &lt; msg.subCount) {\n    return [msg, null];\n} else {\n    msg.subIdx = 0;\n    msg.subCount = 0;\n    return [null, msg];\n}\nreturn msg;&quot;,&quot;outputs&quot;:&quot;2&quot;,&quot;valid&quot;:true,&quot;x&quot;:522.2221755981445,&quot;y&quot;:156.6667013168335,&quot;z&quot;:&quot;532d167e.acd2e8&quot;,&quot;wires&quot;:[[&quot;2527c207.dad83e&quot;],[&quot;d195139c.2e6af&quot;]]},{&quot;id&quot;:&quot;5755d90c.a8aa28&quot;,&quot;type&quot;:&quot;http request&quot;,&quot;debugBreak&quot;:false,&quot;debugOutput&quot;:false,&quot;name&quot;:&quot;&quot;,&quot;method&quot;:&quot;use&quot;,&quot;ret&quot;:&quot;txt&quot;,&quot;url&quot;:&quot;&quot;,&quot;x&quot;:682.2222595214844,&quot;y&quot;:231.11112117767334,&quot;z&quot;:&quot;532d167e.acd2e8&quot;,&quot;wires&quot;:[[&quot;2f7889b9.d08776&quot;]]},{&quot;id&quot;:&quot;d195139c.2e6af&quot;,&quot;type&quot;:&quot;function&quot;,&quot;debugBreak&quot;:false,&quot;debugOutput&quot;:false,&quot;name&quot;:&quot;Setup Notification Audit&quot;,&quot;func&quot;:&quot;msg.url = context.global.base_url+\&quot;/a1/nca/subscription/callEvent/audit/\&quot;+msg.number;\nmsg.method = \&quot;GET\&quot;;\nmsg.headers = {\n        \&quot;Content-Type\&quot;:\&quot;application/json\&quot;,\n        \&quot;Authorization\&quot;:\&quot;Bearer \&quot;+context.global.BearerToken,\n        \&quot;User-Agent\&quot;:\&quot;FlowDesigner\&quot;\n    };\nreturn msg;&quot;,&quot;outputs&quot;:1,&quot;valid&quot;:true,&quot;x&quot;:386.66661071777344,&quot;y&quot;:294.4444284439087,&quot;z&quot;:&quot;532d167e.acd2e8&quot;,&quot;wires&quot;:[[&quot;9c1df0e5.63e21&quot;]]},{&quot;id&quot;:&quot;e40c456c.1bf3b8&quot;,&quot;type&quot;:&quot;function&quot;,&quot;debugBreak&quot;:false,&quot;debugOutput&quot;:false,&quot;name&quot;:&quot;Setup Delete Request&quot;,&quot;func&quot;:&quot;console.log(\&quot;Idx=\&quot;+msg.subIdx);\nconsole.log(JSON.stringify(msg.subIds));\nconsole.log(\&quot;Deleting \&quot;+ msg.subIds[msg.subIdx]);\nmsg.url = context.global.base_url+\&quot;/a1/nca/subscription/callEvent/\&quot;+msg.subIds[msg.subIdx];\nmsg.method = \&quot;DELETE\&quot;;\nmsg.headers = {\n        \&quot;Authorization\&quot;:\&quot;Bearer \&quot;+context.global.BearerToken,\n        \&quot;User-Agent\&quot;:\&quot;NodeRed-Rapport\&quot;\n    };\nmsg.subIdx++;\nreturn msg;&quot;,&quot;outputs&quot;:1,&quot;valid&quot;:true,&quot;x&quot;:762.2222366333008,&quot;y&quot;:408.8888912200928,&quot;z&quot;:&quot;532d167e.acd2e8&quot;,&quot;wires&quot;:[[&quot;8d31debf.72ce2&quot;]]},{&quot;id&quot;:&quot;7ed0445c.812fbc&quot;,&quot;type&quot;:&quot;function&quot;,&quot;debugBreak&quot;:false,&quot;debugOutput&quot;:false,&quot;name&quot;:&quot;ExtractNotificationSubInfo&quot;,&quot;func&quot;:&quot;msg.subCount = 0;\nmsg.subIdx = 0;\nif (msg.statusCode == 200) {\n    if (msg.payload.callEventSubscription &amp;&amp;\n        (msg.payload.callEventSubscription.length &gt; 0)) {\n        //console.log(JSON.stringify(msg.payload.callEventSubscription));\n        msg.subCount = msg.payload.callEventSubscription.length;\n        msg.subIds = [];\n        for (var i=0; i&lt;msg.subCount; i++) {\n            msg.subIds.push(msg.payload.callEventSubscription[i].subId);\n        }\n        console.log(JSON.stringify(msg.subIds));\n    } \n} else {\n    node.error(\&quot;Unable to get direction audit info\&quot;);\n    node.error(msg.payload);\n}\nreturn msg;&quot;,&quot;outputs&quot;:1,&quot;valid&quot;:true,&quot;x&quot;:841.111156463623,&quot;y&quot;:294.4444456100464,&quot;z&quot;:&quot;532d167e.acd2e8&quot;,&quot;wires&quot;:[[&quot;2559c47c.daa63c&quot;]]},{&quot;id&quot;:&quot;9c1df0e5.63e21&quot;,&quot;type&quot;:&quot;http request&quot;,&quot;debugBreak&quot;:false,&quot;debugOutput&quot;:false,&quot;name&quot;:&quot;&quot;,&quot;method&quot;:&quot;use&quot;,&quot;ret&quot;:&quot;obj&quot;,&quot;url&quot;:&quot;&quot;,&quot;x&quot;:602.2222035725912,&quot;y&quot;:294.22224627600775,&quot;z&quot;:&quot;532d167e.acd2e8&quot;,&quot;wires&quot;:[[&quot;7ed0445c.812fbc&quot;]]},{&quot;id&quot;:&quot;2559c47c.daa63c&quot;,&quot;type&quot;:&quot;function&quot;,&quot;debugBreak&quot;:false,&quot;debugOutput&quot;:false,&quot;name&quot;:&quot;ProcNotificationSubs&quot;,&quot;func&quot;:&quot;if (msg.subIdx &lt; msg.subCount) {\n    return [msg, null];\n} else {\n    msg.subIdx = 0;\n    msg.subCount = 0;\n    return [null, msg];\n}\nreturn msg;&quot;,&quot;outputs&quot;:&quot;2&quot;,&quot;valid&quot;:true,&quot;x&quot;:482.22218322753906,&quot;y&quot;:416.6666669845581,&quot;z&quot;:&quot;532d167e.acd2e8&quot;,&quot;wires&quot;:[[&quot;e40c456c.1bf3b8&quot;],[&quot;b27dcb88.4d8238&quot;]]},{&quot;id&quot;:&quot;8d31debf.72ce2&quot;,&quot;type&quot;:&quot;http request&quot;,&quot;debugBreak&quot;:false,&quot;debugOutput&quot;:false,&quot;name&quot;:&quot;&quot;,&quot;method&quot;:&quot;use&quot;,&quot;ret&quot;:&quot;txt&quot;,&quot;url&quot;:&quot;&quot;,&quot;x&quot;:697.7777777777777,&quot;y&quot;:498.88888888888886,&quot;z&quot;:&quot;532d167e.acd2e8&quot;,&quot;wires&quot;:[[&quot;2559c47c.daa63c&quot;]]},{&quot;id&quot;:&quot;b02526eb.4fdad8&quot;,&quot;type&quot;:&quot;subflow&quot;,&quot;name&quot;:&quot;Collect Digits (2)&quot;,&quot;in&quot;:[{&quot;x&quot;:47,&quot;y&quot;:140,&quot;wires&quot;:[{&quot;id&quot;:&quot;1b543b2d.e4abc5&quot;}]}],&quot;out&quot;:[{&quot;x&quot;:537,&quot;y&quot;:367,&quot;wires&quot;:[{&quot;id&quot;:&quot;b6f10315.490f&quot;,&quot;port&quot;:1}]}]},{&quot;id&quot;:&quot;1b543b2d.e4abc5&quot;,&quot;type&quot;:&quot;function&quot;,&quot;debugBreak&quot;:false,&quot;debugOutput&quot;:false,&quot;name&quot;:&quot;Setup Subscribe Request&quot;,&quot;func&quot;:&quot;//\n// This function expects the following inputs:\n// msg.sessionId  - Id of active call session (required)\n// msg.messageUrl - URL of .wav or .mp3 file (required)\n// msg.numbers - Array of 10 digit numbers in call to hear the message (required)\n// msg.numDigits - Number of digits to collect\n//\n// The digits collected by this subflow are returned in msg.digits\n//\nif (msg.sessionId === undefined) {\n    node.error(\&quot;No sessionId parameter, not sending Subscribe request\&quot;);\n    return null;\n}\nif (msg.messageUrl === undefined) {\n    node.error(\&quot;No messageUrl parameter, not sending Subscribe request\&quot;);\n    return null;\n}\nif (msg.numbers === undefined) {\n    node.error(\&quot;No numbers parameter, not sending Subscribe request\&quot;);\n    return null;\n}\nif (msg.numDigits === undefined) {\n    node.error(\&quot;No numbers parameter, not sending Subscribe request\&quot;);\n    return null;\n}\nmsg.url = context.global.base_url+\&quot;/a1/nca/interaction/subscribe\&quot;;\nmsg.method = \&quot;POST\&quot;;\nmsg.headers = {\n        \&quot;Content-Type\&quot;:\&quot;application/json\&quot;,\n        \&quot;Authorization\&quot;:\&quot;Bearer \&quot;+context.global.BearerToken,\n        \&quot;User-Agent\&quot;:\&quot;FlowDesigner\&quot;\n    };\nmsg.payload= {\n        \&quot;sessionId\&quot;: msg.sessionId,\n        \&quot;type\&quot; : \&quot;play\&quot;,\n        \&quot;notifyURL\&quot;: context.global.ui_url+\&quot;/\&quot;+msg.sessionId\n    };\nconsole.log(\&quot;Sending Subscribe Request:\&quot;);\nconsole.log(JSON.stringify(msg));\nreturn msg;\n&quot;,&quot;outputs&quot;:1,&quot;valid&quot;:true,&quot;x&quot;:223,&quot;y&quot;:140,&quot;z&quot;:&quot;b02526eb.4fdad8&quot;,&quot;wires&quot;:[[&quot;dcf0131c.230ff&quot;]]},{&quot;id&quot;:&quot;dcf0131c.230ff&quot;,&quot;type&quot;:&quot;http request&quot;,&quot;debugBreak&quot;:false,&quot;debugOutput&quot;:false,&quot;name&quot;:&quot;&quot;,&quot;method&quot;:&quot;use&quot;,&quot;ret&quot;:&quot;obj&quot;,&quot;url&quot;:&quot;&quot;,&quot;x&quot;:436,&quot;y&quot;:140,&quot;z&quot;:&quot;b02526eb.4fdad8&quot;,&quot;wires&quot;:[[&quot;96a4b7de.695b48&quot;]]},{&quot;id&quot;:&quot;96a4b7de.695b48&quot;,&quot;type&quot;:&quot;function&quot;,&quot;debugBreak&quot;:false,&quot;debugOutput&quot;:false,&quot;name&quot;:&quot;Setup PlayAndCollect Request&quot;,&quot;func&quot;:&quot;if (msg.statusCode == 201) {\n    msg.url = context.global.base_url+\&quot;/a1/nca/interaction/play\&quot;;\n    msg.method = \&quot;POST\&quot;;\n    msg.headers = {\n         \&quot;Content-Type\&quot;:\&quot;application/json\&quot;,\n         \&quot;Authorization\&quot;:\&quot;Bearer \&quot;+context.global.BearerToken,\n         \&quot;User-Agent\&quot;:\&quot;FlowDesigner\&quot;\n        };\n    msg.payload= {\n           \&quot;sessionId\&quot;: msg.sessionId,\n           \&quot;callPartyL\&quot; : msg.numbers,\n           \&quot;playURL\&quot; : msg.messageUrl,\n           \&quot;playFormat\&quot; : \&quot;audio\&quot;,\n           \&quot;minDigits\&quot; : msg.numDigits,\n           \&quot;maxDigits\&quot; : msg.numDigits\n     };\n    console.log(\&quot;Sending PlayAndCollect Request:\&quot;);\n    console.log(JSON.stringify(msg));\n    return msg;\n} else {\n    node.error(\&quot;Unable to setup UI subscription\&quot;);\n    console.log(JSON.stringify(msg.payload));\n    return null;\n}\n&quot;,&quot;outputs&quot;:1,&quot;valid&quot;:true,&quot;x&quot;:246,&quot;y&quot;:253,&quot;z&quot;:&quot;b02526eb.4fdad8&quot;,&quot;wires&quot;:[[&quot;cf4054d5.30bfa8&quot;]]},{&quot;id&quot;:&quot;cf4054d5.30bfa8&quot;,&quot;type&quot;:&quot;http request&quot;,&quot;debugBreak&quot;:false,&quot;debugOutput&quot;:false,&quot;name&quot;:&quot;&quot;,&quot;method&quot;:&quot;use&quot;,&quot;ret&quot;:&quot;obj&quot;,&quot;url&quot;:&quot;&quot;,&quot;x&quot;:505,&quot;y&quot;:253,&quot;z&quot;:&quot;b02526eb.4fdad8&quot;,&quot;wires&quot;:[[&quot;49102df5.b6efd4&quot;]]},{&quot;id&quot;:&quot;b6f10315.490f&quot;,&quot;type&quot;:&quot;function&quot;,&quot;debugBreak&quot;:false,&quot;debugOutput&quot;:false,&quot;name&quot;:&quot;WaitForDigits&quot;,&quot;func&quot;:&quot;msg.pollCount--;\nif (msg.pollCount &lt;= 0) {\n    node.warn(\&quot;Poll limit reached\&quot;);\n    msg.collectStatus = \&quot;Error\&quot;;\n}\nif ((msg.collectStatus == \&quot;Complete\&quot; ) || \n    (msg.collectStatus == \&quot;Terminated\&quot;) || \n    (msg.collectStatus == \&quot;Error\&quot;)) {\n    console.log(\&quot;PlayAndCollect subflow returning..\&quot;);\n    return [null, msg];\n} else {\n    return [msg, null];\n}\n&quot;,&quot;outputs&quot;:&quot;2&quot;,&quot;valid&quot;:true,&quot;x&quot;:198,&quot;y&quot;:357,&quot;z&quot;:&quot;b02526eb.4fdad8&quot;,&quot;wires&quot;:[[&quot;ba924378.456dc&quot;],[]]},{&quot;id&quot;:&quot;ba924378.456dc&quot;,&quot;type&quot;:&quot;delay&quot;,&quot;debugBreak&quot;:false,&quot;debugOutput&quot;:false,&quot;name&quot;:&quot;&quot;,&quot;pauseType&quot;:&quot;delay&quot;,&quot;timeout&quot;:&quot;250&quot;,&quot;timeoutUnits&quot;:&quot;milliseconds&quot;,&quot;rate&quot;:&quot;1&quot;,&quot;rateUnits&quot;:&quot;second&quot;,&quot;randomFirst&quot;:&quot;1&quot;,&quot;randomLast&quot;:&quot;5&quot;,&quot;randomUnits&quot;:&quot;seconds&quot;,&quot;drop&quot;:false,&quot;x&quot;:272,&quot;y&quot;:483,&quot;z&quot;:&quot;b02526eb.4fdad8&quot;,&quot;wires&quot;:[[&quot;f834cf8c.07cb3&quot;]]},{&quot;id&quot;:&quot;49102df5.b6efd4&quot;,&quot;type&quot;:&quot;function&quot;,&quot;debugBreak&quot;:false,&quot;debugOutput&quot;:false,&quot;name&quot;:&quot;Check Status&quot;,&quot;func&quot;:&quot;if (msg.statusCode == 201) {\n    msg.digits = [];\n    msg.pollCount = 200;\n    msg.collectStatus = \&quot;Pending\&quot;;\n} else {\n    node.error(\&quot;PlayAndCollect request failed\&quot;);\n    msg.digits = [];\n    msg.collectStatus = \&quot;Error\&quot;;\n}\nreturn msg;\n&quot;,&quot;outputs&quot;:1,&quot;valid&quot;:true,&quot;x&quot;:699,&quot;y&quot;:256,&quot;z&quot;:&quot;b02526eb.4fdad8&quot;,&quot;wires&quot;:[[&quot;b6f10315.490f&quot;]]},{&quot;id&quot;:&quot;f834cf8c.07cb3&quot;,&quot;type&quot;:&quot;function&quot;,&quot;debugBreak&quot;:false,&quot;debugOutput&quot;:false,&quot;name&quot;:&quot;Check For Digits&quot;,&quot;func&quot;:&quot;//\n// The ui_callback will store the results from the callback in\n// context.global.ui_response[\&quot;&lt;call_sessionId&gt;\&quot;].\n//\nif (context.global.ui_response[msg.sessionId] === undefined) {\n    msg.collectStatus = \&quot;Pending\&quot;;\n} else {\n    msg.collectStatus = \&quot;Complete\&quot;;\n    console.log(\&quot;Digit collection complete!\&quot;);\n    var payload = context.global.ui_response[msg.sessionId];\n    var digitString = payload.eventNotification.eventDescription.mediaResponse;\n    msg.digits = digitString.split(\&quot;\&quot;);\n    console.log(\&quot;Digits=\&quot;+msg.digits);\n    // Cleanup\n    delete context.global.ui_response[msg.sessionId];\n}\nreturn msg;&quot;,&quot;outputs&quot;:1,&quot;valid&quot;:true,&quot;x&quot;:478,&quot;y&quot;:483,&quot;z&quot;:&quot;b02526eb.4fdad8&quot;,&quot;wires&quot;:[[&quot;b6f10315.490f&quot;]]},{&quot;id&quot;:&quot;87805be1.787fa8&quot;,&quot;type&quot;:&quot;subflow&quot;,&quot;name&quot;:&quot;Message (2)&quot;,&quot;in&quot;:[{&quot;x&quot;:57,&quot;y&quot;:105,&quot;wires&quot;:[{&quot;id&quot;:&quot;f271fa58.0d8e08&quot;}]}],&quot;out&quot;:[{&quot;x&quot;:478,&quot;y&quot;:366,&quot;wires&quot;:[{&quot;id&quot;:&quot;7da636de.8259c8&quot;,&quot;port&quot;:1}]}]},{&quot;id&quot;:&quot;f271fa58.0d8e08&quot;,&quot;type&quot;:&quot;function&quot;,&quot;debugBreak&quot;:false,&quot;debugOutput&quot;:false,&quot;name&quot;:&quot;Setup Request&quot;,&quot;func&quot;:&quot;//\n// This function expects the following inputs:\n// msg.sessionId  - Id of active call session (required)\n// msg.messageUrl - URL of .wav or .mp3 file (required)\n// msg.numbers - Array of 10 digit numbers in call to hear the message (required)\n//\nif (msg.sessionId === undefined) {\n    node.error(\&quot;No sessionId parameter, not sending Play request\&quot;);\n    return null;\n}\nif (msg.messageUrl === undefined) {\n    node.error(\&quot;No messageUrl parameter, not sending Play request\&quot;);\n    return null;\n}\nif (msg.numbers === undefined) {\n    node.error(\&quot;No numbers parameter, not sending Play request\&quot;);\n    return null;\n}\nmsg.url = context.global.base_url+\&quot;/a1/nca/interaction/message/audio\&quot;;\nmsg.method = \&quot;POST\&quot;;\nmsg.headers = {\n        \&quot;Content-Type\&quot;:\&quot;application/json\&quot;,\n        \&quot;Authorization\&quot;:\&quot;Bearer \&quot;+context.global.BearerToken,\n        \&quot;User-Agent\&quot;:\&quot;FlowDesigner\&quot;\n    };\nmsg.payload= {\n        \&quot;url\&quot;: msg.messageUrl,\n        \&quot;sessionId\&quot;: msg.sessionId,\n        \&quot;partyNumL\&quot;: msg.numbers\n    };\nconsole.log(\&quot;Sending Play Message Request:\&quot;);\nconsole.log(JSON.stringify(msg));\nreturn msg;&quot;,&quot;outputs&quot;:1,&quot;valid&quot;:true,&quot;x&quot;:221,&quot;y&quot;:107,&quot;z&quot;:&quot;87805be1.787fa8&quot;,&quot;wires&quot;:[[&quot;56d6a32b.a9295c&quot;]]},{&quot;id&quot;:&quot;56d6a32b.a9295c&quot;,&quot;type&quot;:&quot;http request&quot;,&quot;debugBreak&quot;:false,&quot;debugOutput&quot;:false,&quot;name&quot;:&quot;&quot;,&quot;method&quot;:&quot;use&quot;,&quot;ret&quot;:&quot;obj&quot;,&quot;url&quot;:&quot;&quot;,&quot;x&quot;:435,&quot;y&quot;:107,&quot;z&quot;:&quot;87805be1.787fa8&quot;,&quot;wires&quot;:[[&quot;16a7a9db.e95856&quot;,&quot;953b1ed7.6ac4e&quot;]]},{&quot;id&quot;:&quot;16a7a9db.e95856&quot;,&quot;type&quot;:&quot;function&quot;,&quot;debugBreak&quot;:false,&quot;debugOutput&quot;:false,&quot;name&quot;:&quot;Extract MsgId&quot;,&quot;func&quot;:&quot;console.log(\&quot;Result from Play Message Request:\&quot;);\nconsole.log(JSON.stringify(msg));\nif (msg.statusCode == 201) {\n    msg.msgId = msg.payload.msgId;\n    msg.msgStatus = msg.payload.status;\n    msg.pollCount = 240;\n    return msg;\n}\nelse {\n    msg.msgStatus = \&quot;Error\&quot;;\n    node.error(\&quot;Play Message request failed\&quot;);\n    return msg;\n}\n    &quot;,&quot;outputs&quot;:1,&quot;valid&quot;:true,&quot;x&quot;:628,&quot;y&quot;:107,&quot;z&quot;:&quot;87805be1.787fa8&quot;,&quot;wires&quot;:[[&quot;7da636de.8259c8&quot;]]},{&quot;id&quot;:&quot;7da636de.8259c8&quot;,&quot;type&quot;:&quot;function&quot;,&quot;debugBreak&quot;:false,&quot;debugOutput&quot;:false,&quot;name&quot;:&quot;Poll For Completion&quot;,&quot;func&quot;:&quot;msg.pollCount--;\nif (msg.pollCount &lt;= 0) {\n    node.warn(\&quot;Poll limit reached\&quot;);\n    msg.msgStatus = \&quot;Error\&quot;;\n}\nif ((msg.msgStatus == \&quot;Played\&quot; ) || \n    (msg.msgStatus == \&quot;Terminated\&quot;) || \n    (msg.msgStatus == \&quot;Error\&quot;)) {\n    console.log(\&quot;Message subflow returning..\&quot;);\n    return [null, msg];\n} else {\n    msg.url = context.global.base_url+\&quot;/a1/nca/interaction/message/audio/\&quot;+msg.msgId;\n    msg.method = \&quot;GET\&quot;;\n    msg.headers = {\n            \&quot;Content-Type\&quot;:\&quot;application/json\&quot;,\n            \&quot;Authorization\&quot;:\&quot;Bearer \&quot;+context.global.BearerToken,\n            \&quot;User-Agent\&quot;:\&quot;FlowDesigner\&quot;\n        };\n    console.log(\&quot;About to check message status:\&quot;);\n    //console.log(JSON.stringify(msg));\n    return [msg, null];\n}\n\n&quot;,&quot;outputs&quot;:&quot;2&quot;,&quot;valid&quot;:true,&quot;x&quot;:175,&quot;y&quot;:280,&quot;z&quot;:&quot;87805be1.787fa8&quot;,&quot;wires&quot;:[[&quot;bc03aa6a.43fc58&quot;],[]]},{&quot;id&quot;:&quot;678fc0df.98704&quot;,&quot;type&quot;:&quot;http request&quot;,&quot;debugBreak&quot;:false,&quot;debugOutput&quot;:false,&quot;name&quot;:&quot;&quot;,&quot;method&quot;:&quot;use&quot;,&quot;ret&quot;:&quot;obj&quot;,&quot;url&quot;:&quot;&quot;,&quot;x&quot;:681,&quot;y&quot;:354,&quot;z&quot;:&quot;87805be1.787fa8&quot;,&quot;wires&quot;:[[&quot;b7c7f246.48381&quot;,&quot;73e91eda.8c16e&quot;]]},{&quot;id&quot;:&quot;bc03aa6a.43fc58&quot;,&quot;type&quot;:&quot;delay&quot;,&quot;debugBreak&quot;:false,&quot;debugOutput&quot;:false,&quot;name&quot;:&quot;&quot;,&quot;pauseType&quot;:&quot;delay&quot;,&quot;timeout&quot;:&quot;250&quot;,&quot;timeoutUnits&quot;:&quot;milliseconds&quot;,&quot;rate&quot;:&quot;1&quot;,&quot;rateUnits&quot;:&quot;second&quot;,&quot;randomFirst&quot;:&quot;1&quot;,&quot;randomLast&quot;:&quot;5&quot;,&quot;randomUnits&quot;:&quot;seconds&quot;,&quot;drop&quot;:false,&quot;x&quot;:447,&quot;y&quot;:275,&quot;z&quot;:&quot;87805be1.787fa8&quot;,&quot;wires&quot;:[[&quot;678fc0df.98704&quot;]]},{&quot;id&quot;:&quot;b7c7f246.48381&quot;,&quot;type&quot;:&quot;function&quot;,&quot;debugBreak&quot;:false,&quot;debugOutput&quot;:false,&quot;name&quot;:&quot;Extract Status&quot;,&quot;func&quot;:&quot;if (msg.statusCode == 200) {\n    msg.msgStatus = msg.payload.status;\n}\nelse {\n    node.error(\&quot;Unable to get Play Message status\&quot;);\n    node.error(msg.payload);\n    msg.msgStatus = \&quot;Error\&quot;;\n}\nreturn msg;&quot;,&quot;outputs&quot;:1,&quot;valid&quot;:true,&quot;x&quot;:439,&quot;y&quot;:500,&quot;z&quot;:&quot;87805be1.787fa8&quot;,&quot;wires&quot;:[[&quot;7da636de.8259c8&quot;]]},{&quot;id&quot;:&quot;953b1ed7.6ac4e&quot;,&quot;type&quot;:&quot;debug&quot;,&quot;debugBreak&quot;:false,&quot;debugOutput&quot;:false,&quot;name&quot;:&quot;&quot;,&quot;active&quot;:true,&quot;console&quot;:&quot;false&quot;,&quot;complete&quot;:&quot;false&quot;,&quot;x&quot;:592,&quot;y&quot;:49,&quot;z&quot;:&quot;87805be1.787fa8&quot;,&quot;wires&quot;:[]},{&quot;id&quot;:&quot;73e91eda.8c16e&quot;,&quot;type&quot;:&quot;debug&quot;,&quot;debugBreak&quot;:false,&quot;debugOutput&quot;:false,&quot;name&quot;:&quot;&quot;,&quot;active&quot;:true,&quot;console&quot;:&quot;false&quot;,&quot;complete&quot;:&quot;true&quot;,&quot;x&quot;:682,&quot;y&quot;:292,&quot;z&quot;:&quot;87805be1.787fa8&quot;,&quot;wires&quot;:[]},{&quot;id&quot;:&quot;28d9d9f5.d72626&quot;,&quot;type&quot;:&quot;subflow&quot;,&quot;name&quot;:&quot;Hangup (2)&quot;,&quot;in&quot;:[{&quot;x&quot;:70,&quot;y&quot;:70,&quot;wires&quot;:[{&quot;id&quot;:&quot;ad2c58d0.52d3a8&quot;}]}],&quot;out&quot;:[]},{&quot;id&quot;:&quot;ad2c58d0.52d3a8&quot;,&quot;type&quot;:&quot;function&quot;,&quot;debugBreak&quot;:false,&quot;debugOutput&quot;:false,&quot;name&quot;:&quot;Setup Hangup&quot;,&quot;func&quot;:&quot;//\n// This function expects msg.sessionId to be set\n//\nconsole.log(\&quot;About to hangup call\&quot;);\nif (msg.sessionId === undefined) \n    return null;\nmsg.url = context.global.base_url+\&quot;/a1/nca/callcontrol/manage/\&quot;+msg.sessionId;\nmsg.method = \&quot;DELETE\&quot;;\nmsg.headers = {\n        \&quot;Authorization\&quot;:\&quot;Bearer \&quot;+context.global.BearerToken,\n        \&quot;User-Agent\&quot;:\&quot;FlowDesigner\&quot;\n    };\nconsole.log(msg);\nreturn msg;&quot;,&quot;outputs&quot;:1,&quot;valid&quot;:true,&quot;x&quot;:228,&quot;y&quot;:71,&quot;z&quot;:&quot;28d9d9f5.d72626&quot;,&quot;wires&quot;:[[&quot;90cb7eb7.6f348&quot;]]},{&quot;id&quot;:&quot;90cb7eb7.6f348&quot;,&quot;type&quot;:&quot;http request&quot;,&quot;debugBreak&quot;:false,&quot;debugOutput&quot;:false,&quot;name&quot;:&quot;&quot;,&quot;method&quot;:&quot;use&quot;,&quot;ret&quot;:&quot;txt&quot;,&quot;url&quot;:&quot;&quot;,&quot;x&quot;:448,&quot;y&quot;:72,&quot;z&quot;:&quot;28d9d9f5.d72626&quot;,&quot;wires&quot;:[[]]},{&quot;id&quot;:&quot;6a30ec5e.95cf14&quot;,&quot;type&quot;:&quot;subflow&quot;,&quot;name&quot;:&quot;Call (2)&quot;,&quot;in&quot;:[{&quot;x&quot;:70,&quot;y&quot;:70,&quot;wires&quot;:[{&quot;id&quot;:&quot;e8de1b28.1721e8&quot;}]}],&quot;out&quot;:[{&quot;x&quot;:433,&quot;y&quot;:262,&quot;wires&quot;:[{&quot;id&quot;:&quot;1ba76cc.fe45893&quot;,&quot;port&quot;:1}]}]},{&quot;id&quot;:&quot;e8de1b28.1721e8&quot;,&quot;type&quot;:&quot;function&quot;,&quot;debugBreak&quot;:false,&quot;debugOutput&quot;:false,&quot;name&quot;:&quot;Setup Request&quot;,&quot;func&quot;:&quot;// Inputs to this subflow are:\n// msg.numbers  - Array of 10 digit numbers to call (required).  Up to 2 entries.\n// msg.messageUrl - URL of .wav or .mp3 file to play when call is answered. (optional)\n//\nvar url = context.global.base_url+\&quot;/a1/nca/callcontrol/call/\&quot;+msg.numbers[0];\nif (msg.numbers.length &gt; 1)\n    url += \&quot;/\&quot;+msg.numbers[1];\nelse if ((msg.numbers.length == 1) &amp;&amp; (msg.messageUrl === undefined))\n    node.warn(\&quot;An announcement is required if calling only one number\&quot;);\nmsg.url = url;\nmsg.method =  \&quot;POST\&quot;;\nmsg.headers = {\n        \&quot;Content-Type\&quot;:\&quot;application/json\&quot;,\n        \&quot;Authorization\&quot;:\&quot;Bearer \&quot;+context.global.BearerToken,\n        \&quot;User-Agent\&quot;:\&quot;FlowDesigner\&quot;\n    };\nmsg.payload = { \&quot;p1_displayName\&quot;:\&quot;FlowDesigner\&quot; };\nif (msg.messageUrl)\n    msg.payload.announcement = msg.messageUrl;\nconsole.log(\&quot;About to setup call..\&quot;);\nconsole.log(JSON.stringify(msg));\nreturn msg;&quot;,&quot;outputs&quot;:1,&quot;valid&quot;:true,&quot;x&quot;:249,&quot;y&quot;:70,&quot;z&quot;:&quot;6a30ec5e.95cf14&quot;,&quot;wires&quot;:[[&quot;eb39eae3.14c618&quot;]]},{&quot;id&quot;:&quot;eb39eae3.14c618&quot;,&quot;type&quot;:&quot;http request&quot;,&quot;debugBreak&quot;:false,&quot;debugOutput&quot;:false,&quot;name&quot;:&quot;&quot;,&quot;method&quot;:&quot;use&quot;,&quot;ret&quot;:&quot;obj&quot;,&quot;url&quot;:&quot;&quot;,&quot;x&quot;:461,&quot;y&quot;:70,&quot;z&quot;:&quot;6a30ec5e.95cf14&quot;,&quot;wires&quot;:[[&quot;e88e166c.1771e8&quot;,&quot;d0b4a4f1.2f4b58&quot;]]},{&quot;id&quot;:&quot;e88e166c.1771e8&quot;,&quot;type&quot;:&quot;function&quot;,&quot;debugBreak&quot;:false,&quot;debugOutput&quot;:false,&quot;name&quot;:&quot;Extract SessionId&quot;,&quot;func&quot;:&quot;if (msg.statusCode == 201) {\n    msg.sessionId = msg.payload.sessionId;\n    msg.callStatus = \&quot;Pending\&quot;;\n    msg.pollCount = 120;\n    return msg;\n} else {\n    node.error(\&quot;Unable to setup call\&quot;);\n    node.error(\&quot;Error:\&quot;+msg.payload);\n    return null;\n}&quot;,&quot;outputs&quot;:1,&quot;valid&quot;:true,&quot;x&quot;:676,&quot;y&quot;:70,&quot;z&quot;:&quot;6a30ec5e.95cf14&quot;,&quot;wires&quot;:[[&quot;1ba76cc.fe45893&quot;]]},{&quot;id&quot;:&quot;1ba76cc.fe45893&quot;,&quot;type&quot;:&quot;function&quot;,&quot;debugBreak&quot;:false,&quot;debugOutput&quot;:false,&quot;name&quot;:&quot;Poll For Call Setup&quot;,&quot;func&quot;:&quot;msg.pollCount--;\nif (msg.pollCount &lt;= 0) {\n    node.warn(\&quot;Poll limit reached\&quot;);\n    msg.callStatus = \&quot;Error\&quot;;\n}\nif ((msg.callStatus == \&quot;Connected\&quot; ) || \n    (msg.callStatus == \&quot;Terminated\&quot;) || \n    (msg.callStatus == \&quot;Error\&quot;)) {\n    console.log(\&quot;Call subflow returning..\&quot;);\n    return [null, msg];\n} else {\n    msg.url = context.global.base_url+\&quot;/a1/nca/callcontrol/info/\&quot;+msg.sessionId;\n    msg.method = \&quot;GET\&quot;;\n    msg.headers = {\n            \&quot;Content-Type\&quot;:\&quot;application/json\&quot;,\n            \&quot;Authorization\&quot;:\&quot;Bearer \&quot;+context.global.BearerToken,\n            \&quot;User-Agent\&quot;:\&quot;FlowDesigner\&quot;\n        };\n    console.log(\&quot;About to check call status:\&quot;);\n    //console.log(JSON.stringify(msg));\n    return [msg, null];\n}\nreturn msg;&quot;,&quot;outputs&quot;:&quot;2&quot;,&quot;valid&quot;:true,&quot;x&quot;:186,&quot;y&quot;:210,&quot;z&quot;:&quot;6a30ec5e.95cf14&quot;,&quot;wires&quot;:[[&quot;d9e78652.261878&quot;],[]]},{&quot;id&quot;:&quot;d9e78652.261878&quot;,&quot;type&quot;:&quot;delay&quot;,&quot;debugBreak&quot;:false,&quot;debugOutput&quot;:false,&quot;name&quot;:&quot;&quot;,&quot;pauseType&quot;:&quot;delay&quot;,&quot;timeout&quot;:&quot;250&quot;,&quot;timeoutUnits&quot;:&quot;milliseconds&quot;,&quot;rate&quot;:&quot;1&quot;,&quot;rateUnits&quot;:&quot;second&quot;,&quot;randomFirst&quot;:&quot;1&quot;,&quot;randomLast&quot;:&quot;5&quot;,&quot;randomUnits&quot;:&quot;seconds&quot;,&quot;drop&quot;:false,&quot;x&quot;:416,&quot;y&quot;:204,&quot;z&quot;:&quot;6a30ec5e.95cf14&quot;,&quot;wires&quot;:[[&quot;e84c6972.17b398&quot;]]},{&quot;id&quot;:&quot;cbbb7aa5.344488&quot;,&quot;type&quot;:&quot;function&quot;,&quot;debugBreak&quot;:false,&quot;debugOutput&quot;:false,&quot;name&quot;:&quot;Extract Status&quot;,&quot;func&quot;:&quot;if (msg.statusCode == 200) {\n    var numEntries = msg.payload.participants.length;\n    if (numEntries &gt; msg.numbers.length)\n        numEntries = msg.numbers.length;\n    var tempStatus = \&quot;Terminated\&quot;;\n    for (var i = 0; i&lt;numEntries; i++) {\n        if ((msg.payload.participants[i].status == \&quot;CallParticipantConnected\&quot;) &amp;&amp;\n            (tempStatus != \&quot;Pending\&quot;)) {\n            tempStatus = \&quot;Connected\&quot;;\n        }\n        if (msg.payload.participants[i].status == \&quot;CallParticipantInitial\&quot;) {\n            tempStatus = \&quot;Pending\&quot;;\n        }\n    }\n    msg.callStatus = tempStatus;\n}\nelse {\n    node.error(\&quot;Unable to get Call Status\&quot;);\n    node.error(msg.payload);\n    msg.callStatus = \&quot;Error\&quot;;\n}\nreturn msg;&quot;,&quot;outputs&quot;:1,&quot;valid&quot;:true,&quot;x&quot;:391,&quot;y&quot;:379,&quot;z&quot;:&quot;6a30ec5e.95cf14&quot;,&quot;wires&quot;:[[&quot;1ba76cc.fe45893&quot;]]},{&quot;id&quot;:&quot;e84c6972.17b398&quot;,&quot;type&quot;:&quot;http request&quot;,&quot;debugBreak&quot;:false,&quot;debugOutput&quot;:false,&quot;name&quot;:&quot;&quot;,&quot;method&quot;:&quot;use&quot;,&quot;ret&quot;:&quot;obj&quot;,&quot;url&quot;:&quot;&quot;,&quot;x&quot;:657,&quot;y&quot;:205,&quot;z&quot;:&quot;6a30ec5e.95cf14&quot;,&quot;wires&quot;:[[&quot;cbbb7aa5.344488&quot;]]},{&quot;id&quot;:&quot;d0b4a4f1.2f4b58&quot;,&quot;type&quot;:&quot;debug&quot;,&quot;debugBreak&quot;:false,&quot;debugOutput&quot;:false,&quot;name&quot;:&quot;&quot;,&quot;active&quot;:true,&quot;console&quot;:&quot;false&quot;,&quot;complete&quot;:&quot;false&quot;,&quot;x&quot;:615,&quot;y&quot;:27,&quot;z&quot;:&quot;6a30ec5e.95cf14&quot;,&quot;wires&quot;:[]},{&quot;id&quot;:&quot;25407254.dabf8e&quot;,&quot;type&quot;:&quot;function&quot;,&quot;debugBreak&quot;:false,&quot;debugOutput&quot;:false,&quot;name&quot;:&quot;InitializeGlobals&quot;,&quot;func&quot;:&quot;{\n    //\n    // Enter two or more numbers to the array. \n    context.global.numbers = [\&quot;first phone number\&quot;,\&quot;second phone number\&quot;];\n    // \n    // Enter your client id and client secret below\n    //\n    context.global.client_id=\&quot;enter your client id from https://devportal.foundry.att.net\&quot;;\n    context.global.client_secret=\&quot;enter your client secret from https://devportal.foundry.att.net\&quot;;\n    // \n    // The following must match the http in nodes for the callback functions.\n    // In FlowDesigner these should match the paths for the Endpoints.\n    // Note: Do not include the /:id after the uiCallback.\n    //\n    //IMPORTANT - Please modify these values\n    context.global.direction_url = \&quot;https://run-west.att.io/319b48003ce8c/567d6bcb2f49/753207d585bdb93/in/flow/directionCallback\&quot;;\n    context.global.event_url = \&quot;https://run-west.att.io/319b48003ce8c/567d6bcb2f49/753207d585bdb93/in/flow/eventCallback\&quot;;\n    context.global.ui_url = \&quot;https://run-west.att.io/319b48003ce8c/567d6bcb2f49/753207d585bdb93/in/flow/uiCallback\&quot;;\n    // \n    // Leave these alone\n    //\n    context.global.base_url=\&quot;http://api.foundry.att.net:9001\&quot;;\n    //context.global.messageUrl = \&quot;http://12.206.227.110:8080/Hello.mp3\&quot;; \n    context.global.messageUrl = \&quot;http://apitest.foundry.att.net/sample/term.wav\&quot;;\n    context.global.ui_response = {};\n}\nreturn msg;\n&quot;,&quot;outputs&quot;:1,&quot;valid&quot;:true,&quot;dependencies&quot;:[],&quot;x&quot;:457.3125,&quot;y&quot;:186,&quot;z&quot;:&quot;828b2334.7d74e&quot;,&quot;wires&quot;:[[&quot;f75a9c51.08a56&quot;]]},{&quot;id&quot;:&quot;baeb817f.45148&quot;,&quot;type&quot;:&quot;comment&quot;,&quot;debugBreak&quot;:false,&quot;debugOutput&quot;:false,&quot;name&quot;:&quot;Initialize Global variables used in the flows&quot;,&quot;info&quot;:&quot;This flow is automatically called when the project is deployed.\n\nEdit the InitializeGlobals function and set the following globals for your environment:\n\n`context.global.numbers`\n`context.global.client_id`\n`context.global.client_secret`\n`context.global.direction_url`\n`context.global.event_url`\n`context.global.ui_url`&quot;,&quot;x&quot;:361.3125,&quot;y&quot;:143,&quot;z&quot;:&quot;828b2334.7d74e&quot;,&quot;wires&quot;:[]},{&quot;id&quot;:&quot;9d39cd95.62c63&quot;,&quot;type&quot;:&quot;inject&quot;,&quot;debugBreak&quot;:false,&quot;debugOutput&quot;:false,&quot;name&quot;:&quot;&quot;,&quot;topic&quot;:&quot;&quot;,&quot;payload&quot;:&quot;&quot;,&quot;payloadType&quot;:&quot;none&quot;,&quot;repeat&quot;:&quot;&quot;,&quot;crontab&quot;:&quot;&quot;,&quot;once&quot;:true,&quot;x&quot;:279.3125,&quot;y&quot;:186,&quot;z&quot;:&quot;828b2334.7d74e&quot;,&quot;wires&quot;:[[&quot;25407254.dabf8e&quot;]]},{&quot;id&quot;:&quot;57ea6b29.a81594&quot;,&quot;type&quot;:&quot;comment&quot;,&quot;debugBreak&quot;:false,&quot;debugOutput&quot;:false,&quot;name&quot;:&quot;Click2call to one participant followed by a hangup&quot;,&quot;info&quot;:&quot;The Setup Call function needs to set the following values:\n\n`msg.numbers`  - Array of 10 digit numbers to call (required).  Up to 2 entries.\n\n`msg.messageUrl` - URL of .wav or .mp3 file to play when call is answered. (optional)\n&quot;,&quot;x&quot;:370.3124656677246,&quot;y&quot;:723.1389141082764,&quot;z&quot;:&quot;828b2334.7d74e&quot;,&quot;wires&quot;:[]},{&quot;id&quot;:&quot;edcd77c9.123288&quot;,&quot;type&quot;:&quot;inject&quot;,&quot;debugBreak&quot;:false,&quot;debugOutput&quot;:false,&quot;name&quot;:&quot;&quot;,&quot;topic&quot;:&quot;&quot;,&quot;payload&quot;:&quot;&quot;,&quot;payloadType&quot;:&quot;none&quot;,&quot;repeat&quot;:&quot;&quot;,&quot;crontab&quot;:&quot;&quot;,&quot;once&quot;:false,&quot;x&quot;:268.89581298828125,&quot;y&quot;:1498.6110305786133,&quot;z&quot;:&quot;828b2334.7d74e&quot;,&quot;wires&quot;:[[&quot;47c2d44a.b83d2c&quot;]]},{&quot;id&quot;:&quot;54456de4.abba94&quot;,&quot;type&quot;:&quot;http in&quot;,&quot;debugBreak&quot;:false,&quot;debugOutput&quot;:false,&quot;name&quot;:&quot;CallDirection Callback&quot;,&quot;url&quot;:&quot;/directionCallback&quot;,&quot;method&quot;:&quot;post&quot;,&quot;x&quot;:285.92359161376953,&quot;y&quot;:1277.8055686950684,&quot;z&quot;:&quot;828b2334.7d74e&quot;,&quot;wires&quot;:[[&quot;55129616.aaed68&quot;]]},{&quot;id&quot;:&quot;55129616.aaed68&quot;,&quot;type&quot;:&quot;function&quot;,&quot;debugBreak&quot;:false,&quot;debugOutput&quot;:false,&quot;name&quot;:&quot;Call Flow Logic&quot;,&quot;func&quot;:&quot;node.log(msg.payload);\nmsg.headers = {\n        \&quot;Content-Type\&quot;:\&quot;application/json\&quot;\n    };\n//\n// Here is where we can change the call flow processing. Possible options:\n// Route, Continue, EndCall, Deferred,  or DeferredPlayAudibleRing\n// See documentation for details.  \n//\nmsg.payload = { \&quot;action\&quot;: {\n    \&quot;actionToPerform\&quot;: \&quot;Continue\&quot;,\n    //\&quot;routingAddress\&quot;: \&quot;sip:+1\&quot;+context.global.numbers[1]+\&quot;@foundry.att.net;display=originator\&quot;\n}};\nmsg.statusCode=200;\nreturn msg;&quot;,&quot;outputs&quot;:1,&quot;valid&quot;:true,&quot;x&quot;:504.4791488647461,&quot;y&quot;:1277.8054904937744,&quot;z&quot;:&quot;828b2334.7d74e&quot;,&quot;wires&quot;:[[&quot;90eb2d03.6f14d&quot;]]},{&quot;id&quot;:&quot;90eb2d03.6f14d&quot;,&quot;type&quot;:&quot;http response&quot;,&quot;debugBreak&quot;:false,&quot;debugOutput&quot;:false,&quot;name&quot;:&quot;&quot;,&quot;x&quot;:690.8124465942383,&quot;y&quot;:1277.6944065093994,&quot;z&quot;:&quot;828b2334.7d74e&quot;,&quot;wires&quot;:[]},{&quot;id&quot;:&quot;9e617ae5.619e88&quot;,&quot;type&quot;:&quot;http in&quot;,&quot;debugBreak&quot;:false,&quot;debugOutput&quot;:false,&quot;name&quot;:&quot;CallEvent Callback&quot;,&quot;url&quot;:&quot;/eventCallback&quot;,&quot;method&quot;:&quot;post&quot;,&quot;x&quot;:277.92359161376953,&quot;y&quot;:1362.8055686950684,&quot;z&quot;:&quot;828b2334.7d74e&quot;,&quot;wires&quot;:[[&quot;9ba2f8c.f645d08&quot;,&quot;2167adc6.de9852&quot;]]},{&quot;id&quot;:&quot;bb8c5151.4473b&quot;,&quot;type&quot;:&quot;http in&quot;,&quot;debugBreak&quot;:false,&quot;debugOutput&quot;:false,&quot;name&quot;:&quot;UI Event Callback&quot;,&quot;url&quot;:&quot;/uiCallback/:id&quot;,&quot;method&quot;:&quot;post&quot;,&quot;x&quot;:269.92359161376953,&quot;y&quot;:1186.8055686950684,&quot;z&quot;:&quot;828b2334.7d74e&quot;,&quot;wires&quot;:[[&quot;f6d901fe.0927&quot;]]},{&quot;id&quot;:&quot;9ba2f8c.f645d08&quot;,&quot;type&quot;:&quot;http response&quot;,&quot;debugBreak&quot;:false,&quot;debugOutput&quot;:false,&quot;name&quot;:&quot;&quot;,&quot;x&quot;:503.92359161376953,&quot;y&quot;:1364.8055686950684,&quot;z&quot;:&quot;828b2334.7d74e&quot;,&quot;wires&quot;:[]},{&quot;id&quot;:&quot;3d856e4b.c27a92&quot;,&quot;type&quot;:&quot;inject&quot;,&quot;debugBreak&quot;:false,&quot;debugOutput&quot;:false,&quot;name&quot;:&quot;&quot;,&quot;topic&quot;:&quot;&quot;,&quot;payload&quot;:&quot;&quot;,&quot;payloadType&quot;:&quot;none&quot;,&quot;repeat&quot;:&quot;&quot;,&quot;crontab&quot;:&quot;&quot;,&quot;once&quot;:false,&quot;x&quot;:267.8124656677246,&quot;y&quot;:761.1389141082764,&quot;z&quot;:&quot;828b2334.7d74e&quot;,&quot;wires&quot;:[[&quot;cfd38795.302c78&quot;]]},{&quot;id&quot;:&quot;cfd38795.302c78&quot;,&quot;type&quot;:&quot;function&quot;,&quot;debugBreak&quot;:false,&quot;debugOutput&quot;:false,&quot;name&quot;:&quot;Setup Call&quot;,&quot;func&quot;:&quot;var numbers = [];\nnumbers.push(context.global.numbers[0]);\nmsg.numbers = numbers;\nmsg.messageUrl = context.global.messageUrl;\nmsg.numDigits = 2;\nreturn msg;&quot;,&quot;outputs&quot;:1,&quot;valid&quot;:true,&quot;x&quot;:408.8124656677246,&quot;y&quot;:762.1389141082764,&quot;z&quot;:&quot;828b2334.7d74e&quot;,&quot;wires&quot;:[[&quot;f96aa54.f069558&quot;]]},{&quot;id&quot;:&quot;f96aa54.f069558&quot;,&quot;type&quot;:&quot;subflow:6a30ec5e.95cf14&quot;,&quot;debugBreak&quot;:false,&quot;debugOutput&quot;:false,&quot;x&quot;:547.8124656677246,&quot;y&quot;:761.1389141082764,&quot;z&quot;:&quot;828b2334.7d74e&quot;,&quot;wires&quot;:[[&quot;177da1c.fe8825e&quot;]]},{&quot;id&quot;:&quot;efa168ef.105e98&quot;,&quot;type&quot;:&quot;subflow:28d9d9f5.d72626&quot;,&quot;debugBreak&quot;:false,&quot;debugOutput&quot;:false,&quot;x&quot;:821.8124656677246,&quot;y&quot;:761.1389141082764,&quot;z&quot;:&quot;828b2334.7d74e&quot;,&quot;wires&quot;:[]},{&quot;id&quot;:&quot;177da1c.fe8825e&quot;,&quot;type&quot;:&quot;subflow:87805be1.787fa8&quot;,&quot;debugBreak&quot;:false,&quot;debugOutput&quot;:false,&quot;x&quot;:677.8124656677246,&quot;y&quot;:761.1389141082764,&quot;z&quot;:&quot;828b2334.7d74e&quot;,&quot;wires&quot;:[[&quot;efa168ef.105e98&quot;]]},{&quot;id&quot;:&quot;6d0f70ad.92f09&quot;,&quot;type&quot;:&quot;change&quot;,&quot;debugBreak&quot;:false,&quot;debugOutput&quot;:false,&quot;name&quot;:&quot;Set Message&quot;,&quot;rules&quot;:[{&quot;t&quot;:&quot;set&quot;,&quot;p&quot;:&quot;messageUrl&quot;,&quot;to&quot;:&quot;http://12.206.227.110:8080/EnterDigits.mp3&quot;,&quot;tot&quot;:&quot;str&quot;}],&quot;action&quot;:&quot;&quot;,&quot;property&quot;:&quot;&quot;,&quot;from&quot;:&quot;&quot;,&quot;to&quot;:&quot;&quot;,&quot;reg&quot;:false,&quot;x&quot;:697.3124656677246,&quot;y&quot;:869.1389141082764,&quot;z&quot;:&quot;828b2334.7d74e&quot;,&quot;wires&quot;:[[&quot;788d9f0d.87726&quot;]]},{&quot;id&quot;:&quot;f6d901fe.0927&quot;,&quot;type&quot;:&quot;function&quot;,&quot;debugBreak&quot;:false,&quot;debugOutput&quot;:false,&quot;name&quot;:&quot;Store Response&quot;,&quot;func&quot;:&quot;console.log(\&quot;UI Callback:\&quot;);\nvar id = msg.req.url.split(&#39;/&#39;).pop();\n//\n// The Collect Digits subflow will poll for the\n// existence of context.global.ui_response[&lt;call_sessionId&gt;]\n// Once we set it here, the Collect Digits subflow will \n// parse the payload to get the digits and continue the flow.\n//\ncontext.global.ui_response[id] = msg.payload;\nreturn msg;&quot;,&quot;outputs&quot;:1,&quot;valid&quot;:true,&quot;x&quot;:489.92359161376953,&quot;y&quot;:1186.8055686950684,&quot;z&quot;:&quot;828b2334.7d74e&quot;,&quot;wires&quot;:[[&quot;853ef0be.7ac11&quot;]]},{&quot;id&quot;:&quot;853ef0be.7ac11&quot;,&quot;type&quot;:&quot;http response&quot;,&quot;debugBreak&quot;:false,&quot;debugOutput&quot;:false,&quot;name&quot;:&quot;&quot;,&quot;x&quot;:696.9235916137695,&quot;y&quot;:1186.8055686950684,&quot;z&quot;:&quot;828b2334.7d74e&quot;,&quot;wires&quot;:[]},{&quot;id&quot;:&quot;788d9f0d.87726&quot;,&quot;type&quot;:&quot;subflow:b02526eb.4fdad8&quot;,&quot;debugBreak&quot;:false,&quot;debugOutput&quot;:false,&quot;x&quot;:516.3124656677246,&quot;y&quot;:941.1389141082764,&quot;z&quot;:&quot;828b2334.7d74e&quot;,&quot;wires&quot;:[[&quot;277d18b.fd882e8&quot;,&quot;cd463f9f.32b9c&quot;]]},{&quot;id&quot;:&quot;7f3e1422.80c1ec&quot;,&quot;type&quot;:&quot;inject&quot;,&quot;debugBreak&quot;:false,&quot;debugOutput&quot;:false,&quot;name&quot;:&quot;&quot;,&quot;topic&quot;:&quot;&quot;,&quot;payload&quot;:&quot;&quot;,&quot;payloadType&quot;:&quot;none&quot;,&quot;repeat&quot;:&quot;&quot;,&quot;crontab&quot;:&quot;&quot;,&quot;once&quot;:false,&quot;x&quot;:264.3124656677246,&quot;y&quot;:869.1389141082764,&quot;z&quot;:&quot;828b2334.7d74e&quot;,&quot;wires&quot;:[[&quot;c1cebbab.3e3148&quot;]]},{&quot;id&quot;:&quot;c1cebbab.3e3148&quot;,&quot;type&quot;:&quot;function&quot;,&quot;debugBreak&quot;:false,&quot;debugOutput&quot;:false,&quot;name&quot;:&quot;Setup Call&quot;,&quot;func&quot;:&quot;var numbers = [];\nnumbers.push(context.global.numbers[0]);\nmsg.numbers = numbers;\nmsg.messageUrl = context.global.messageUrl;\nmsg.numDigits = 2;\nreturn msg;&quot;,&quot;outputs&quot;:1,&quot;valid&quot;:true,&quot;x&quot;:405.3124656677246,&quot;y&quot;:870.1389141082764,&quot;z&quot;:&quot;828b2334.7d74e&quot;,&quot;wires&quot;:[[&quot;bd85347e.427ac8&quot;]]},{&quot;id&quot;:&quot;bd85347e.427ac8&quot;,&quot;type&quot;:&quot;subflow:6a30ec5e.95cf14&quot;,&quot;debugBreak&quot;:false,&quot;debugOutput&quot;:false,&quot;x&quot;:550.3124656677246,&quot;y&quot;:869.1389141082764,&quot;z&quot;:&quot;828b2334.7d74e&quot;,&quot;wires&quot;:[[&quot;6d0f70ad.92f09&quot;]]},{&quot;id&quot;:&quot;277d18b.fd882e8&quot;,&quot;type&quot;:&quot;subflow:28d9d9f5.d72626&quot;,&quot;debugBreak&quot;:false,&quot;debugOutput&quot;:false,&quot;x&quot;:696.3124656677246,&quot;y&quot;:941.1389141082764,&quot;z&quot;:&quot;828b2334.7d74e&quot;,&quot;wires&quot;:[]},{&quot;id&quot;:&quot;cd463f9f.32b9c&quot;,&quot;type&quot;:&quot;debug&quot;,&quot;debugBreak&quot;:false,&quot;debugOutput&quot;:false,&quot;name&quot;:&quot;Print Digits&quot;,&quot;active&quot;:true,&quot;console&quot;:&quot;true&quot;,&quot;complete&quot;:&quot;digits&quot;,&quot;x&quot;:706.3124656677246,&quot;y&quot;:994.1389141082764,&quot;z&quot;:&quot;828b2334.7d74e&quot;,&quot;wires&quot;:[]},{&quot;id&quot;:&quot;58c1fe6b.a73e&quot;,&quot;type&quot;:&quot;comment&quot;,&quot;debugBreak&quot;:false,&quot;debugOutput&quot;:false,&quot;name&quot;:&quot;Click2Call one participant and collect 2 digits&quot;,&quot;info&quot;:&quot;The Setup Call function needs to set the following values:\n\n`msg.numbers`  - Array of 10 digit numbers to call (required).  One entry.\n\n`msg.messageUrl` - URL of .wav or .mp3 file to play when call is answered. (required)\n\n`msg.numDigits` - Number of digits to collect (required)\n\nThe collected digits are returned in an array `msg.digits`&quot;,&quot;x&quot;:353.3124656677246,&quot;y&quot;:828.1389141082764,&quot;z&quot;:&quot;828b2334.7d74e&quot;,&quot;wires&quot;:[]},{&quot;id&quot;:&quot;2167adc6.de9852&quot;,&quot;type&quot;:&quot;debug&quot;,&quot;debugBreak&quot;:false,&quot;debugOutput&quot;:false,&quot;name&quot;:&quot;&quot;,&quot;active&quot;:true,&quot;console&quot;:&quot;false&quot;,&quot;complete&quot;:&quot;false&quot;,&quot;x&quot;:519.9235916137695,&quot;y&quot;:1416.8055686950684,&quot;z&quot;:&quot;828b2334.7d74e&quot;,&quot;wires&quot;:[]},{&quot;id&quot;:&quot;9cad35ba.6352c8&quot;,&quot;type&quot;:&quot;inject&quot;,&quot;debugBreak&quot;:false,&quot;debugOutput&quot;:false,&quot;name&quot;:&quot;&quot;,&quot;topic&quot;:&quot;&quot;,&quot;payload&quot;:&quot;&quot;,&quot;payloadType&quot;:&quot;none&quot;,&quot;repeat&quot;:&quot;&quot;,&quot;crontab&quot;:&quot;&quot;,&quot;once&quot;:false,&quot;x&quot;:261.8124656677246,&quot;y&quot;:1075.1389141082764,&quot;z&quot;:&quot;828b2334.7d74e&quot;,&quot;wires&quot;:[[&quot;a9860b51.5679f8&quot;]]},{&quot;id&quot;:&quot;a9860b51.5679f8&quot;,&quot;type&quot;:&quot;function&quot;,&quot;debugBreak&quot;:false,&quot;debugOutput&quot;:false,&quot;name&quot;:&quot;Setup Call&quot;,&quot;func&quot;:&quot;msg.numbers = context.global.numbers;\nmsg.messageUrl = context.global.messageUrl;\nreturn msg;&quot;,&quot;outputs&quot;:1,&quot;valid&quot;:true,&quot;x&quot;:402.8124656677246,&quot;y&quot;:1075.1389141082764,&quot;z&quot;:&quot;828b2334.7d74e&quot;,&quot;wires&quot;:[[&quot;a6ae5288.5951b&quot;]]},{&quot;id&quot;:&quot;a6ae5288.5951b&quot;,&quot;type&quot;:&quot;subflow:6a30ec5e.95cf14&quot;,&quot;debugBreak&quot;:false,&quot;debugOutput&quot;:false,&quot;x&quot;:547.8124656677246,&quot;y&quot;:1075.1389141082764,&quot;z&quot;:&quot;828b2334.7d74e&quot;,&quot;wires&quot;:[[&quot;8425a819.7bda58&quot;]]},{&quot;id&quot;:&quot;6167602a.9e98a&quot;,&quot;type&quot;:&quot;subflow:87805be1.787fa8&quot;,&quot;debugBreak&quot;:false,&quot;debugOutput&quot;:false,&quot;x&quot;:840.8124656677246,&quot;y&quot;:1076.1389141082764,&quot;z&quot;:&quot;828b2334.7d74e&quot;,&quot;wires&quot;:[[&quot;321d3fc8.cde2c&quot;]]},{&quot;id&quot;:&quot;321d3fc8.cde2c&quot;,&quot;type&quot;:&quot;subflow:28d9d9f5.d72626&quot;,&quot;debugBreak&quot;:false,&quot;debugOutput&quot;:false,&quot;x&quot;:982.8124656677246,&quot;y&quot;:1075.1389141082764,&quot;z&quot;:&quot;828b2334.7d74e&quot;,&quot;wires&quot;:[]},{&quot;id&quot;:&quot;9142df47.6ebd2&quot;,&quot;type&quot;:&quot;comment&quot;,&quot;debugBreak&quot;:false,&quot;debugOutput&quot;:false,&quot;name&quot;:&quot;Click2Call two participants and play each a message&quot;,&quot;info&quot;:&quot;The Setup Call function needs to set the following values:\n\n`msg.numbers`  - Array of 10 digit numbers to call (required).  Two entries.\n\n`msg.messageUrl` - URL of .wav or .mp3 file to play when call is answered. (optional)\n&quot;,&quot;x&quot;:377.8124656677246,&quot;y&quot;:1032.1389141082764,&quot;z&quot;:&quot;828b2334.7d74e&quot;,&quot;wires&quot;:[]},{&quot;id&quot;:&quot;8425a819.7bda58&quot;,&quot;type&quot;:&quot;change&quot;,&quot;debugBreak&quot;:false,&quot;debugOutput&quot;:false,&quot;name&quot;:&quot;Set Message&quot;,&quot;rules&quot;:[{&quot;t&quot;:&quot;set&quot;,&quot;p&quot;:&quot;messageUrl&quot;,&quot;to&quot;:&quot;http://12.206.227.110:8080/Rapport.mp3&quot;,&quot;tot&quot;:&quot;str&quot;}],&quot;action&quot;:&quot;&quot;,&quot;property&quot;:&quot;&quot;,&quot;from&quot;:&quot;&quot;,&quot;to&quot;:&quot;&quot;,&quot;reg&quot;:false,&quot;x&quot;:688.8124656677246,&quot;y&quot;:1075.1389141082764,&quot;z&quot;:&quot;828b2334.7d74e&quot;,&quot;wires&quot;:[[&quot;6167602a.9e98a&quot;]]},{&quot;id&quot;:&quot;ddc8034.f2238&quot;,&quot;type&quot;:&quot;comment&quot;,&quot;debugBreak&quot;:false,&quot;debugOutput&quot;:false,&quot;name&quot;:&quot;Get and store a bearer access_token&quot;,&quot;info&quot;:&quot;The client id and client secret are used to retrieve a Bearer token.  \nThe token is stored in:  `context.global.BearerToken` for use in the other flows.&quot;,&quot;x&quot;:579.3125,&quot;y&quot;:261,&quot;z&quot;:&quot;828b2334.7d74e&quot;,&quot;wires&quot;:[]},{&quot;id&quot;:&quot;40e33427.bf1ccc&quot;,&quot;type&quot;:&quot;function&quot;,&quot;debugBreak&quot;:false,&quot;debugOutput&quot;:false,&quot;name&quot;:&quot;Store Token&quot;,&quot;func&quot;:&quot;context.global.BearerToken=msg.payload.access_token;\nnode.log(\&quot;Token=\&quot;+context.global.BearerToken);\nreturn msg;&quot;,&quot;outputs&quot;:1,&quot;valid&quot;:true,&quot;x&quot;:682.3125,&quot;y&quot;:299,&quot;z&quot;:&quot;828b2334.7d74e&quot;,&quot;wires&quot;:[[&quot;32125f25.cdeda&quot;]]},{&quot;id&quot;:&quot;f75a9c51.08a56&quot;,&quot;type&quot;:&quot;function&quot;,&quot;debugBreak&quot;:false,&quot;debugOutput&quot;:false,&quot;name&quot;:&quot;GetOAuthToken&quot;,&quot;func&quot;:&quot;var newMsg ={\n    \&quot;url\&quot;:context.global.base_url+\&quot;/oauth/client_credential/accesstoken?grant_type=client_credentials\&quot;,\n    \&quot;method\&quot;: \&quot;POST\&quot;,\n    \&quot;headers\&quot;: {\n        \&quot;Content-Type\&quot;:\&quot;application/x-www-form-urlencoded\&quot;\n    },\n    \&quot;payload\&quot;: \&quot;client_id=\&quot;+context.global.client_id+\&quot;&amp;client_secret=\&quot;+context.global.client_secret\n    \n}\nreturn newMsg;\n&quot;,&quot;outputs&quot;:1,&quot;valid&quot;:true,&quot;x&quot;:326.3125,&quot;y&quot;:299,&quot;z&quot;:&quot;828b2334.7d74e&quot;,&quot;wires&quot;:[[&quot;f685caa4.097a38&quot;]]},{&quot;id&quot;:&quot;f685caa4.097a38&quot;,&quot;type&quot;:&quot;http request&quot;,&quot;debugBreak&quot;:false,&quot;debugOutput&quot;:false,&quot;name&quot;:&quot;&quot;,&quot;method&quot;:&quot;use&quot;,&quot;ret&quot;:&quot;obj&quot;,&quot;url&quot;:&quot;&quot;,&quot;x&quot;:511.3125,&quot;y&quot;:299,&quot;z&quot;:&quot;828b2334.7d74e&quot;,&quot;wires&quot;:[[&quot;40e33427.bf1ccc&quot;]]},{&quot;id&quot;:&quot;8f32b571.70cd48&quot;,&quot;type&quot;:&quot;function&quot;,&quot;debugBreak&quot;:false,&quot;debugOutput&quot;:false,&quot;name&quot;:&quot;Direction Callbacks&quot;,&quot;func&quot;:&quot;//\n// Register a callback for each number in the \n// msg.numbers array\n//\nif (msg.numIdx &lt; msg.numbers.length) {\n    msg.number = msg.numbers[msg.numIdx];\n    msg.numIdx++;\n    return msg;\n} else {\n    msg.numIdx = 0;\n    return null;\n}\n&quot;,&quot;outputs&quot;:&quot;1&quot;,&quot;valid&quot;:true,&quot;dependencies&quot;:[],&quot;x&quot;:618.6458358764648,&quot;y&quot;:417.2222213745117,&quot;z&quot;:&quot;828b2334.7d74e&quot;,&quot;wires&quot;:[[&quot;def058ed.210fa8&quot;]]},{&quot;id&quot;:&quot;774e6da8.88b194&quot;,&quot;type&quot;:&quot;http request&quot;,&quot;debugBreak&quot;:false,&quot;debugOutput&quot;:false,&quot;name&quot;:&quot;&quot;,&quot;method&quot;:&quot;use&quot;,&quot;ret&quot;:&quot;obj&quot;,&quot;url&quot;:&quot;&quot;,&quot;x&quot;:600.7569122314453,&quot;y&quot;:487.4444580078125,&quot;z&quot;:&quot;828b2334.7d74e&quot;,&quot;wires&quot;:[[&quot;8f32b571.70cd48&quot;,&quot;97cae07b.68352&quot;]]},{&quot;id&quot;:&quot;bee9e042.41162&quot;,&quot;type&quot;:&quot;function&quot;,&quot;debugBreak&quot;:false,&quot;debugOutput&quot;:false,&quot;name&quot;:&quot;Event Callbacks&quot;,&quot;func&quot;:&quot;//\n// Register a callback for each number in the \n// context.global.numbers array\n//\nif (msg.numIdx &lt; msg.numbers.length) {\n    msg.number = msg.numbers[msg.numIdx];\n    msg.numIdx++;\n    return msg;\n} else {\n    msg.numIdx = 0;\n    return null;\n}&quot;,&quot;outputs&quot;:1,&quot;valid&quot;:true,&quot;x&quot;:633.0902709960938,&quot;y&quot;:591.6666631698608,&quot;z&quot;:&quot;828b2334.7d74e&quot;,&quot;wires&quot;:[[&quot;9fa547b6.605ab8&quot;]]},{&quot;id&quot;:&quot;def058ed.210fa8&quot;,&quot;type&quot;:&quot;function&quot;,&quot;debugBreak&quot;:false,&quot;debugOutput&quot;:false,&quot;name&quot;:&quot;Setup Request&quot;,&quot;func&quot;:&quot;var number = msg.number;\nmsg ={\n    \&quot;url\&quot;:context.global.base_url+\&quot;/a1/nca/subscription/callDirection/+1\&quot;+number,\n    \&quot;method\&quot;: \&quot;POST\&quot;,\n    headers: {\n        \&quot;Content-Type\&quot;:\&quot;application/json\&quot;,\n        \&quot;Authorization\&quot;:\&quot;Bearer \&quot;+context.global.BearerToken,\n        \&quot;User-Agent\&quot;:\&quot;NodeRed-Rapport\&quot;\n    },\n    payload: {\n        \&quot;addressDirection\&quot;: \&quot;Called\&quot;,\n        \&quot;criteria\&quot;: [\&quot;CalledNumber\&quot;],\n        \&quot;url\&quot;: context.global.direction_url\n    }\n}\nreturn msg;&quot;,&quot;outputs&quot;:1,&quot;valid&quot;:true,&quot;x&quot;:830.2014465332031,&quot;y&quot;:416.11111068725586,&quot;z&quot;:&quot;828b2334.7d74e&quot;,&quot;wires&quot;:[[&quot;774e6da8.88b194&quot;]]},{&quot;id&quot;:&quot;9fa547b6.605ab8&quot;,&quot;type&quot;:&quot;function&quot;,&quot;debugBreak&quot;:false,&quot;debugOutput&quot;:false,&quot;name&quot;:&quot;Setup Request&quot;,&quot;func&quot;:&quot;var number = msg.number;\nvar msg ={\n    \&quot;url\&quot;:context.global.base_url+\&quot;/a1/nca/subscription/callEvent/+1\&quot;+number,\n    \&quot;method\&quot;: \&quot;POST\&quot;,\n    headers: {\n        \&quot;Content-Type\&quot;:\&quot;application/json\&quot;,\n        \&quot;Authorization\&quot;:\&quot;Bearer \&quot;+context.global.BearerToken,\n        \&quot;User-Agent\&quot;:\&quot;NodeRed-Rapport\&quot;\n    },\n    payload: {\n        \&quot;addressDirection\&quot;: \&quot;Called\&quot;,\n        \&quot;criteria\&quot;: [\&quot;CalledNumber\&quot;],\n        \&quot;url\&quot;: context.global.event_url\n    }\n}\nreturn msg;&quot;,&quot;outputs&quot;:1,&quot;valid&quot;:true,&quot;x&quot;:833.5347061157227,&quot;y&quot;:591.7777814865112,&quot;z&quot;:&quot;828b2334.7d74e&quot;,&quot;wires&quot;:[[&quot;f43bfbd0.0bc408&quot;]]},{&quot;id&quot;:&quot;f43bfbd0.0bc408&quot;,&quot;type&quot;:&quot;http request&quot;,&quot;debugBreak&quot;:false,&quot;debugOutput&quot;:false,&quot;name&quot;:&quot;&quot;,&quot;method&quot;:&quot;use&quot;,&quot;ret&quot;:&quot;obj&quot;,&quot;url&quot;:&quot;&quot;,&quot;x&quot;:615.7013854980469,&quot;y&quot;:666.1944255828857,&quot;z&quot;:&quot;828b2334.7d74e&quot;,&quot;wires&quot;:[[&quot;bee9e042.41162&quot;,&quot;8b09898a.74f678&quot;]]},{&quot;id&quot;:&quot;3f4570c3.c0ba9&quot;,&quot;type&quot;:&quot;inject&quot;,&quot;debugBreak&quot;:false,&quot;debugOutput&quot;:false,&quot;name&quot;:&quot;&quot;,&quot;topic&quot;:&quot;&quot;,&quot;payload&quot;:&quot;&quot;,&quot;payloadType&quot;:&quot;none&quot;,&quot;repeat&quot;:&quot;&quot;,&quot;crontab&quot;:&quot;&quot;,&quot;once&quot;:false,&quot;x&quot;:271.0902786254883,&quot;y&quot;:416.3333511352539,&quot;z&quot;:&quot;828b2334.7d74e&quot;,&quot;wires&quot;:[[&quot;6fdde169.90222&quot;]]},{&quot;id&quot;:&quot;50d77e07.af288&quot;,&quot;type&quot;:&quot;inject&quot;,&quot;debugBreak&quot;:false,&quot;debugOutput&quot;:false,&quot;name&quot;:&quot;&quot;,&quot;topic&quot;:&quot;&quot;,&quot;payload&quot;:&quot;&quot;,&quot;payloadType&quot;:&quot;none&quot;,&quot;repeat&quot;:&quot;&quot;,&quot;crontab&quot;:&quot;&quot;,&quot;once&quot;:false,&quot;x&quot;:270.8680419921875,&quot;y&quot;:589.8888759613037,&quot;z&quot;:&quot;828b2334.7d74e&quot;,&quot;wires&quot;:[[&quot;bf750684.408af8&quot;]]},{&quot;id&quot;:&quot;97cae07b.68352&quot;,&quot;type&quot;:&quot;debug&quot;,&quot;debugBreak&quot;:false,&quot;debugOutput&quot;:false,&quot;name&quot;:&quot;&quot;,&quot;active&quot;:true,&quot;console&quot;:&quot;true&quot;,&quot;complete&quot;:&quot;true&quot;,&quot;x&quot;:818.979175567627,&quot;y&quot;:487.5555667877197,&quot;z&quot;:&quot;828b2334.7d74e&quot;,&quot;wires&quot;:[]},{&quot;id&quot;:&quot;8b09898a.74f678&quot;,&quot;type&quot;:&quot;debug&quot;,&quot;debugBreak&quot;:false,&quot;debugOutput&quot;:false,&quot;name&quot;:&quot;&quot;,&quot;active&quot;:true,&quot;console&quot;:&quot;true&quot;,&quot;complete&quot;:&quot;true&quot;,&quot;x&quot;:807.0624885559082,&quot;y&quot;:665.2222166061401,&quot;z&quot;:&quot;828b2334.7d74e&quot;,&quot;wires&quot;:[]},{&quot;id&quot;:&quot;5da0883b.a25f78&quot;,&quot;type&quot;:&quot;comment&quot;,&quot;debugBreak&quot;:false,&quot;debugOutput&quot;:false,&quot;name&quot;:&quot;Register Call Direction Callbacks&quot;,&quot;info&quot;:&quot;Registeres a direction callback for each entry in the `context.global.numbers` array.\n\nThe callback endpoint is stored in: `context.global.direction_url`&quot;,&quot;x&quot;:322.3125,&quot;y&quot;:376,&quot;z&quot;:&quot;828b2334.7d74e&quot;,&quot;wires&quot;:[]},{&quot;id&quot;:&quot;21005dc9.deffa2&quot;,&quot;type&quot;:&quot;comment&quot;,&quot;debugBreak&quot;:false,&quot;debugOutput&quot;:false,&quot;name&quot;:&quot;Register Call Event Notification Callbacks&quot;,&quot;info&quot;:&quot;Registeres an event callback for each entry in the `context.global.numbers` array.\n\nThe callback endpoint is stored in: `context.global.event_url`&quot;,&quot;x&quot;:349.5347099304199,&quot;y&quot;:551.1111030578613,&quot;z&quot;:&quot;828b2334.7d74e&quot;,&quot;wires&quot;:[]},{&quot;id&quot;:&quot;47c2d44a.b83d2c&quot;,&quot;type&quot;:&quot;function&quot;,&quot;debugBreak&quot;:false,&quot;debugOutput&quot;:false,&quot;name&quot;:&quot;Set Numbers&quot;,&quot;func&quot;:&quot;msg.numbers = context.global.numbers;\nmsg.numIdx=0;\nreturn msg;&quot;,&quot;outputs&quot;:1,&quot;valid&quot;:true,&quot;x&quot;:433.31249237060547,&quot;y&quot;:1498.6666650772095,&quot;z&quot;:&quot;828b2334.7d74e&quot;,&quot;wires&quot;:[[&quot;ea70e741.158f18&quot;]]},{&quot;id&quot;:&quot;ea70e741.158f18&quot;,&quot;type&quot;:&quot;subflow:532d167e.acd2e8&quot;,&quot;debugBreak&quot;:false,&quot;debugOutput&quot;:false,&quot;x&quot;:606.6458206176758,&quot;y&quot;:1498.666706085205,&quot;z&quot;:&quot;828b2334.7d74e&quot;,&quot;wires&quot;:[[]]},{&quot;id&quot;:&quot;6fdde169.90222&quot;,&quot;type&quot;:&quot;function&quot;,&quot;debugBreak&quot;:false,&quot;debugOutput&quot;:false,&quot;name&quot;:&quot;Set Numbers&quot;,&quot;func&quot;:&quot;msg.numbers = context.global.numbers;  // Array of numbers\nmsg.numIdx = 0;\nreturn msg;&quot;,&quot;outputs&quot;:1,&quot;valid&quot;:true,&quot;x&quot;:416.6458053588867,&quot;y&quot;:416.33331871032715,&quot;z&quot;:&quot;828b2334.7d74e&quot;,&quot;wires&quot;:[[&quot;8f32b571.70cd48&quot;]]},{&quot;id&quot;:&quot;bf750684.408af8&quot;,&quot;type&quot;:&quot;function&quot;,&quot;debugBreak&quot;:false,&quot;debugOutput&quot;:false,&quot;name&quot;:&quot;Set Numbers&quot;,&quot;func&quot;:&quot;var numbers = [];\nnumbers.push(context.global.numbers[0]);\nmsg.numbers = numbers;\nmsg.numIdx = 0;\nreturn msg;&quot;,&quot;outputs&quot;:1,&quot;valid&quot;:true,&quot;x&quot;:428.86803436279297,&quot;y&quot;:590.7777576446533,&quot;z&quot;:&quot;828b2334.7d74e&quot;,&quot;wires&quot;:[[&quot;bee9e042.41162&quot;]]},{&quot;id&quot;:&quot;610c6b4c.9ef394&quot;,&quot;type&quot;:&quot;comment&quot;,&quot;debugBreak&quot;:false,&quot;debugOutput&quot;:false,&quot;name&quot;:&quot;User Interface Callback Endpoint&quot;,&quot;info&quot;:&quot;This is the endpoint for transient callbacks used by the User Interaction APIs.  \n\nThe call sessionId is passed as a paramenter in the URL.  \n\nThe payload is stored in `context.global.ui_response[&lt;call_sessionId&gt;]`\n\nThis will trigger the Collect Digits subflow to continue.&quot;,&quot;x&quot;:318.81248474121094,&quot;y&quot;:1144.1111092037625,&quot;z&quot;:&quot;828b2334.7d74e&quot;,&quot;wires&quot;:[]},{&quot;id&quot;:&quot;2fd4c5d9.d02b3a&quot;,&quot;type&quot;:&quot;comment&quot;,&quot;debugBreak&quot;:false,&quot;debugOutput&quot;:false,&quot;name&quot;:&quot;Call Direction Callback Endpoint&quot;,&quot;info&quot;:&quot;This flow is triggered by a Call Direction event on one of the registered numbers.\n\nThe default action is just to Continue the call.  \n\nYou can modify the Call Flow function to take other actions as Route, EndCall, etc.&quot;,&quot;x&quot;:312.31248474121094,&quot;y&quot;:1235.2222203148735,&quot;z&quot;:&quot;828b2334.7d74e&quot;,&quot;wires&quot;:[]},{&quot;id&quot;:&quot;9fcb7287.60349&quot;,&quot;type&quot;:&quot;comment&quot;,&quot;debugBreak&quot;:false,&quot;debugOutput&quot;:false,&quot;name&quot;:&quot;Call Event Callback Endpoint&quot;,&quot;info&quot;:&quot;This flow is triggered by a Call Notification event on one of the registered numbers.\n\nThe event is just logged to the console.\n&quot;,&quot;x&quot;:304.81248474121094,&quot;y&quot;:1319.555507659912,&quot;z&quot;:&quot;828b2334.7d74e&quot;,&quot;wires&quot;:[]},{&quot;id&quot;:&quot;386258fa.c79da8&quot;,&quot;type&quot;:&quot;comment&quot;,&quot;debugBreak&quot;:false,&quot;debugOutput&quot;:false,&quot;name&quot;:&quot;Remove Callback Subscriptions&quot;,&quot;info&quot;:&quot;This flow will query and remove all Call Direction and Call Notification subscriptions for the numbers in the `msg.numbers` array.&quot;,&quot;x&quot;:307.31248474121094,&quot;y&quot;:1459.7777758704292,&quot;z&quot;:&quot;828b2334.7d74e&quot;,&quot;wires&quot;:[]},{&quot;id&quot;:&quot;32125f25.cdeda&quot;,&quot;type&quot;:&quot;debug&quot;,&quot;debugBreak&quot;:false,&quot;debugOutput&quot;:false,&quot;name&quot;:&quot;&quot;,&quot;active&quot;:true,&quot;console&quot;:&quot;false&quot;,&quot;complete&quot;:&quot;false&quot;,&quot;x&quot;:835.3124847412109,&quot;y&quot;:299,&quot;z&quot;:&quot;828b2334.7d74e&quot;,&quot;wires&quot;:[]}]</td>
+      </tr>
+</table>
+
+  </div>
+
+</div>
+
+<button type="button" data-facebox="#jump-to-line" data-facebox-class="linejump" data-hotkey="l" class="hidden">Jump to Line</button>
+<div id="jump-to-line" style="display:none">
+  <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="" class="js-jump-to-line-form" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>
+    <input class="form-control linejump-input js-jump-to-line-field" type="text" placeholder="Jump to line&hellip;" aria-label="Jump to line" autofocus>
+    <button type="submit" class="btn">Go</button>
+</form></div>
+
+  </div>
+  <div class="modal-backdrop"></div>
+</div>
+
+
+    </div>
+  </div>
+
+    </div>
+
+        <div class="container site-footer-container">
+  <div class="site-footer" role="contentinfo">
+    <ul class="site-footer-links right">
+        <li><a href="https://status.github.com/" data-ga-click="Footer, go to status, text:status">Status</a></li>
+      <li><a href="https://developer.github.com" data-ga-click="Footer, go to api, text:api">API</a></li>
+      <li><a href="https://training.github.com" data-ga-click="Footer, go to training, text:training">Training</a></li>
+      <li><a href="https://shop.github.com" data-ga-click="Footer, go to shop, text:shop">Shop</a></li>
+        <li><a href="https://github.com/blog" data-ga-click="Footer, go to blog, text:blog">Blog</a></li>
+        <li><a href="https://github.com/about" data-ga-click="Footer, go to about, text:about">About</a></li>
+
+    </ul>
+
+    <a href="https://github.com" aria-label="Homepage" class="site-footer-mark">
+      <svg aria-hidden="true" class="octicon octicon-mark-github" height="24" title="GitHub " version="1.1" viewBox="0 0 16 16" width="24"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59 0.4 0.07 0.55-0.17 0.55-0.38 0-0.19-0.01-0.82-0.01-1.49-2.01 0.37-2.53-0.49-2.69-0.94-0.09-0.23-0.48-0.94-0.82-1.13-0.28-0.15-0.68-0.52-0.01-0.53 0.63-0.01 1.08 0.58 1.23 0.82 0.72 1.21 1.87 0.87 2.33 0.66 0.07-0.52 0.28-0.87 0.51-1.07-1.78-0.2-3.64-0.89-3.64-3.95 0-0.87 0.31-1.59 0.82-2.15-0.08-0.2-0.36-1.02 0.08-2.12 0 0 0.67-0.21 2.2 0.82 0.64-0.18 1.32-0.27 2-0.27 0.68 0 1.36 0.09 2 0.27 1.53-1.04 2.2-0.82 2.2-0.82 0.44 1.1 0.16 1.92 0.08 2.12 0.51 0.56 0.82 1.27 0.82 2.15 0 3.07-1.87 3.75-3.65 3.95 0.29 0.25 0.54 0.73 0.54 1.48 0 1.07-0.01 1.93-0.01 2.2 0 0.21 0.15 0.46 0.55 0.38C13.71 14.53 16 11.53 16 8 16 3.58 12.42 0 8 0z"></path></svg>
+</a>
+    <ul class="site-footer-links">
+      <li>&copy; 2016 <span title="0.10357s from github-fe123-cp1-prd.iad.github.net">GitHub</span>, Inc.</li>
+        <li><a href="https://github.com/site/terms" data-ga-click="Footer, go to terms, text:terms">Terms</a></li>
+        <li><a href="https://github.com/site/privacy" data-ga-click="Footer, go to privacy, text:privacy">Privacy</a></li>
+        <li><a href="https://github.com/security" data-ga-click="Footer, go to security, text:security">Security</a></li>
+        <li><a href="https://github.com/contact" data-ga-click="Footer, go to contact, text:contact">Contact</a></li>
+        <li><a href="https://help.github.com" data-ga-click="Footer, go to help, text:help">Help</a></li>
+    </ul>
+  </div>
+</div>
+
+
+
+    
+    
+
+    <div id="ajax-error-message" class="ajax-error-message flash flash-error">
+      <svg aria-hidden="true" class="octicon octicon-alert" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M15.72 12.5l-6.85-11.98C8.69 0.21 8.36 0.02 8 0.02s-0.69 0.19-0.87 0.5l-6.85 11.98c-0.18 0.31-0.18 0.69 0 1C0.47 13.81 0.8 14 1.15 14h13.7c0.36 0 0.69-0.19 0.86-0.5S15.89 12.81 15.72 12.5zM9 12H7V10h2V12zM9 9H7V5h2V9z"></path></svg>
+      <button type="button" class="flash-close js-flash-close js-ajax-error-dismiss" aria-label="Dismiss error">
+        <svg aria-hidden="true" class="octicon octicon-x" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path d="M7.48 8l3.75 3.75-1.48 1.48-3.75-3.75-3.75 3.75-1.48-1.48 3.75-3.75L0.77 4.25l1.48-1.48 3.75 3.75 3.75-3.75 1.48 1.48-3.75 3.75z"></path></svg>
+      </button>
+      Something went wrong with that request. Please try again.
+    </div>
+
+
+      
+      <script crossorigin="anonymous" integrity="sha256-lAVFgxnjo51eTwhMJAF8XEDCccoKPzcGZzb9z+QbGVo=" src="https://assets-cdn.github.com/assets/frameworks-9405458319e3a39d5e4f084c24017c5c40c271ca0a3f37066736fdcfe41b195a.js"></script>
+      <script async="async" crossorigin="anonymous" integrity="sha256-8njePcfUk/ht9idSVmsHwrxCyjwG2cr8eGH8wJ2G2dc=" src="https://assets-cdn.github.com/assets/github-f278de3dc7d493f86df62752566b07c2bc42ca3c06d9cafc7861fcc09d86d9d7.js"></script>
+      
+      
+      
+      
+      
+    <div class="js-stale-session-flash stale-session-flash flash flash-warn flash-banner hidden">
+      <svg aria-hidden="true" class="octicon octicon-alert" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M15.72 12.5l-6.85-11.98C8.69 0.21 8.36 0.02 8 0.02s-0.69 0.19-0.87 0.5l-6.85 11.98c-0.18 0.31-0.18 0.69 0 1C0.47 13.81 0.8 14 1.15 14h13.7c0.36 0 0.69-0.19 0.86-0.5S15.89 12.81 15.72 12.5zM9 12H7V10h2V12zM9 9H7V5h2V9z"></path></svg>
+      <span class="signed-in-tab-flash">You signed in with another tab or window. <a href="">Reload</a> to refresh your session.</span>
+      <span class="signed-out-tab-flash">You signed out in another tab or window. <a href="">Reload</a> to refresh your session.</span>
+    </div>
+    <div class="facebox" id="facebox" style="display:none;">
+  <div class="facebox-popup">
+    <div class="facebox-content" role="dialog" aria-labelledby="facebox-header" aria-describedby="facebox-description">
+    </div>
+    <button type="button" class="facebox-close js-facebox-close" aria-label="Close modal">
+      <svg aria-hidden="true" class="octicon octicon-x" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path d="M7.48 8l3.75 3.75-1.48 1.48-3.75-3.75-3.75 3.75-1.48-1.48 3.75-3.75L0.77 4.25l1.48-1.48 3.75 3.75 3.75-3.75 1.48 1.48-3.75 3.75z"></path></svg>
+    </button>
+  </div>
+</div>
+
+  </body>
+</html>
+
