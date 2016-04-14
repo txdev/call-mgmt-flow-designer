@@ -15,7 +15,7 @@ Please follow these instructions to import the flows to flow designer.
 ![image](image/import-flows.png)
 
 #### Edit global variables
-![image](image/import-flows.png)
+![image](image/edit-global-variables.png)
 
 ![image](image/deployed-flows.png)
 
